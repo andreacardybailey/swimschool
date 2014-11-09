@@ -1,0 +1,10 @@
+html {
+  background-color: yellow; }
+  html div {
+    color: red;
+    background-color: black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; }
+    @media (min-width: 500px) {
+      html div {
+        content: 'Whoa.'; } }
