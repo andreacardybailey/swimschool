@@ -1,22 +1,24 @@
-@import '../../../bower_components/bourbon/dist/bourbon';
-@import '../../../bower_components/sassy-maps/sass/sassy-maps';
-@import '../../../bower_components/breakpoint-sass/stylesheets/_breakpoint';
-@import 'susy';
-@import url(http://fonts.googleapis.com/css?family=Dosis:500,700);
-@import 'fontello';
-
 html {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
 }
 footer {
+//  width: 100%;
+  position: absolute;
+  bottom: 0;
   background-image: url("/assets/images/bubbles.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: bottom left;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   min-height: rem(108);
-  @include border-color(red green null blue);
+  .footer-copyright {
+    height: rem(80px);
+    background-color: #006b91;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
 }

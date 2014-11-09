@@ -9,6 +9,6 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="cleartype" content="on">
-    <link href="/assets/styles/production/core.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
   </head>
   <body>

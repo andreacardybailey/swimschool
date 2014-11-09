@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Dosis:500,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600);
 @font-face {
   font-family: 'fontello';
   src: url("/assets/fonts/fontello.eot?54148939");
@@ -56,14 +56,19 @@ html {
   font-weight: 500; }
 
 footer {
+  position: absolute;
+  bottom: 0;
   background-image: url("/assets/images/bubbles.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: bottom left;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 6.75rem;
-  border-top-color: red;
-  border-right-color: green;
-  border-left-color: blue; }
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  min-height: 6.75rem; }
+  footer .footer-copyright {
+    height: 5rem;
+    background-color: #006b91;
+    color: #fff;
+    text-align: center;
+    font-weight: 600; }
