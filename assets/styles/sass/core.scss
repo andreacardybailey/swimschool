@@ -1,7 +1,22 @@
+@import '../../../bower_components/bourbon/dist/bourbon';
+@import '../../../bower_components/sassy-maps/sass/sassy-maps';
+@import '../../../bower_components/breakpoint-sass/stylesheets/_breakpoint';
+@import 'susy';
 @import url(http://fonts.googleapis.com/css?family=Dosis:500,700);
-@import "fontello";
+@import 'fontello';
 
 html {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
+}
+footer {
+  background-image: url("/assets/images/bubbles.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: rem(108);
+  @include border-color(red green null blue);
 }

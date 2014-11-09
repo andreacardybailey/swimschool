@@ -54,3 +54,16 @@
 html {
   font-family: 'Dosis', sans-serif;
   font-weight: 500; }
+
+footer {
+  background-image: url("/assets/images/bubbles.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 6.75rem;
+  border-top-color: red;
+  border-right-color: green;
+  border-left-color: blue; }
