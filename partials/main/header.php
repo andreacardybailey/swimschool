@@ -1,24 +1,24 @@
-<div class="sb-slidebar sb-left">
-  <a href="register.php" class="register-now">REGISTER NOW</a>
-  <ul>
-    <li><a href="/">HOME</a></li>
-    <li><a href="about.php">ABOUT US</a></li>
-    <li><a href="lessons.php">LESSONS</a></li>
-    <li><a href="coaches.php">COACHES</a></li>
-    <li><a href="leaders.php">LEADERS</a></li>
-    <li><a href="gallery.php">GALLERY</a></li>
-    <li><a href="gallery.php">LATEST NEWS</a></li>
-  </ul>
-  <ul class="mobile">
-    <li><a href="faqs.php">FAQs</a></li>
-    <li><a href="locations.php">LOCATIONS</a></li>
-    <li><a href="contact.php">CONTACT US</a></li>
-  </ul>
+<div class="sb-slidebar sb-left sb-momentum-scrolling">
+  <nav>
+    <ul>
+      <li class="register-now"><a href="register.php">REGISTER NOW<i class="icon-right-open"></i></a></li>
+      <li><a href="/">HOME</a></li>
+      <li><a href="about.php">ABOUT US</a></li>
+      <li><a href="lessons.php">LESSONS</a></li>
+      <li><a href="coaches.php">COACHES</a></li>
+      <li><a href="leaders.php">LEADERS</a></li>
+      <li><a href="gallery.php">GALLERY</a></li>
+      <li><a href="gallery.php">LATEST NEWS</a></li>
+      <li><a href="faqs.php">FAQs</a></li>
+      <li><a href="locations.php">LOCATIONS</a></li>
+      <li><a href="contact.php">CONTACT US</a></li>
+    </ul>
+  </nav>
 </div>
 <div class="sb-site-container">
   <header>
       <section class="mobile-menu mobile">
-        <a href="javascript:void(0);" class="sb-open-left"><i class="icon-menu"></i>Menu</a>
+        <a href="javascript:void(0);" class="sb-toggle-left"><i class="icon-menu"></i>Menu</a>
         <a href="tel:+18443527946"><i class="icon-phone"></i>Contact Us</a>
       </section>
       <div class="logo">
@@ -34,10 +34,8 @@
         </ul>
       </aside>
     </div>
-    <nav>
-      <!-- <div class="ss-wrapper">
-        <div style="color:white">
-          <a href="register.php" class="register-now">REGISTER NOW</a>
+    <nav class="main-nav">
+      <div class="ss-wrapper">
           <ul>
             <li><a href="/">HOME</a></li>
             <li><a href="about.php">ABOUT US</a></li>
@@ -47,12 +45,7 @@
             <li><a href="gallery.php">GALLERY</a></li>
             <li><a href="gallery.php">LATEST NEWS</a></li>
           </ul>
-          <ul class="mobile">
-            <li><a href="faqs.php">FAQs</a></li>
-            <li><a href="locations.php">LOCATIONS</a></li>
-            <li><a href="contact.php">CONTACT US</a></li>
-          </ul>
-        </div>
-      </div> -->
+          <a href="register.php" class="register-now">REGISTER NOW</a>
+      </div>
     </nav>
   </header>

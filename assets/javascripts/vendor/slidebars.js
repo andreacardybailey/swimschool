@@ -320,6 +320,14 @@
 		});
 
 		// Close Slidebar
+    $('.sb-slidebar a').on('touchend click', function(e) {
+      e.preventDefault();
+      var href = ( $(this).is('a') ? $(this).attr('href') : $(this).find('a').attr('href') );
+      close(href); // Close Slidebar and pass link.
+    });
+
+
+		// Close Slidebar
 		$('.sb-close').on('touchend click', function(event) {
 			if ( $(this).is('a') || $(this).children().is('a') ) { // Is a link or contains a link.
 				if ( event.type === 'click' ) { // Make sure the user wanted to follow the link.

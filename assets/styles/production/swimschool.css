@@ -432,12 +432,12 @@ th {
     .ss-wrapper {
       width: 80.25rem; } }
 
-html {
+body {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
+  color: #444;
   font-size: 1.25rem;
-  line-height: 1.875rem;
-  color: #444; }
+  line-height: 1.875rem; }
 
 a, a:visited {
   color: #f7931e; }
@@ -471,6 +471,28 @@ ul {
   .mobile {
     display: none; } }
 
+.sb-slidebar nav {
+  padding: 0 2.5rem;
+  font-weight: 700; }
+.sb-slidebar .register-now {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #fff; }
+.sb-slidebar a, .sb-slidebar a:visited, .sb-slidebar a:active, .sb-slidebar a:hover {
+  font-size: 1.5625rem;
+  line-height: 2.3125rem;
+  text-decoration: none;
+  color: white; }
+  .sb-slidebar a:active, .sb-slidebar a:visited:active, .sb-slidebar a:active:active, .sb-slidebar a:hover:active {
+    color: white;
+    text-decoration: underline; }
+  .sb-slidebar a i, .sb-slidebar a:visited i, .sb-slidebar a:active i, .sb-slidebar a:hover i {
+    font-size: 1.125rem; }
+@media (min-width: 700px) {
+  .sb-slidebar {
+    display: none; } }
+
 .mobile-menu {
   background-color: #00adef;
   line-height: 3rem;
@@ -488,124 +510,15 @@ ul {
     .general-info {
       display: block; } }
 
-nav.push-menu-left {
-  top: 0;
-  width: 300px;
-  height: 100%; }
-
-nav.push-menu-left li {
-  display: block;
-  text-align: center;
-  border-bottom: solid 1px #3184a1;
-  border-top: solid 1px #b5dbe9; }
-
-nav.push-menu-left li:first-child {
-  border-top: none; }
-
-nav.push-menu-left li:last-child {
-  border-bottom: none; }
-
-nav.push-menu-left a {
-  display: block;
-  padding: 10px;
-  font-size: 18px; }
-
-nav.push-menu-left button.close-menu {
-  margin: 10px 0;
-  padding: 10px 30px;
-  background-color: #3184a1;
-  color: #fff; }
-
-nav.push-menu-left {
-  left: -300px; }
-
-body.pml-open nav.push-menu-left {
-  left: 0; }
-
-body.pml-open #wrapper {
-  left: 300px; }
-
-/* ------------------------------------------------------------ *\
-|* ------------------------------------------------------------ *|
-|* Template
-|* ------------------------------------------------------------ *|
-\* ------------------------------------------------------------ */
-body {
-  overflow-x: hidden; }
-
-#wrapper {
-  position: relative;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-
-section {
-  margin-bottom: 30px; }
-
-section h1 {
-  font-family: "Oswald", sans-serif;
-  margin-bottom: 10px; }
-
-section p {
-  margin-bottom: 30px; }
-
-section p:last-child {
-  margin-bottom: 0; }
-
-section:last-child {
-  margin-bottom: 0; }
-
-section.toggle {
-  text-align: center; }
-
-.mask {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 15;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8); }
-
-/* ------------------------------------------------------------ *\
-|* ------------------------------------------------------------ *|
-|* Menus
-|* ------------------------------------------------------------ *|
-\* ------------------------------------------------------------ */
-/* general style for all menus */
-nav.menu {
-  position: fixed;
-  z-index: 20;
-  background-color: #67b5d1;
-  overflow: hidden;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-
-nav.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-
-nav.menu a {
-  font-weight: 300;
-  color: #fff; }
-
-button.close-menu {
-  background-color: #3184a1;
-  color: #fff; }
-
-button.close-menu:focus {
-  outline: none; }
+.main-nav {
+  display: none; }
+  @media (min-width: 700px) {
+    .main-nav {
+      display: block; } }
 
 footer {
+  display: table;
+  width: 100%;
   background-image: url("/assets/images/bubbles.png");
   background-repeat: repeat-x;
   background-position: top left;
@@ -613,17 +526,19 @@ footer {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: 3.9375rem;
-  padding-top: 3.9375rem; }
+  height: 5rem;
+  padding-top: 3.6875rem; }
   footer .footer-copyright {
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
     height: 3.375rem;
     background-color: #006b91;
     color: #fff;
     text-align: center;
     font-weight: 600;
-    line-height: 1.25rem;
-    font-size: 1rem;
-    padding-top: 1.625rem; }
+    line-height: 1.375rem;
+    font-size: 1.125rem; }
 
 /* -----------------------------------
  * Slidebars
@@ -691,7 +606,7 @@ html.sb-scroll-lock.sb-active:not(.sb-static) {
   /* Slidebars sit behind sb-site. */
   display: none;
   /* Initially hide the Slidebars. Changed from visibility to display to allow -webkit-overflow-scrolling. */
-  background-color: #222222;
+  background-color: #f7931e;
   /* Default Slidebars background colour, overwrite this with your own css. */
   -webkit-transform: translate(0px);
   /* Fixes issues with translated and z-indexed elements on iOS 7. */ }
@@ -734,7 +649,7 @@ html.sb-static .sb-slidebar,
 @media (max-width: 480px) {
   /* Slidebar widths on extra small screens. */
   .sb-slidebar {
-    width: 70%; }
+    width: 85%; }
 
   .sb-width-thin {
     width: 55%; }
