@@ -10,13 +10,14 @@
     <script src="/assets/javascripts/vendor/slidebars.js" type="text/javascript" charset="utf-8"></script>
     <script src="/assets/javascripts/swimschool.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
+      // hide address bar for mobile devices
       (function($){
         if( !window.location.hash && window.addEventListener ){
-            window.addEventListener( "load",function() {
-                setTimeout(function(){
-                    window.scrollTo(0, 0);
-                }, 0);
-            });
+          window.addEventListener( "load",function() {
+              setTimeout(function(){
+                  window.scrollTo(0, 0);
+              }, 0);
+          });
         }
       })(jQuery);
     </script>

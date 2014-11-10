@@ -2,8 +2,8 @@ body {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
   color: $text-default-gray;
-  font-size: rem(20px);
-  line-height: rem(30px);
+  font-size: rem(20);
+  line-height: rem(30);
 }
 a, a:visited {
   color: $orange;
@@ -13,20 +13,20 @@ a, a:visited {
 }
 h1 {
   color: $hdr-blue;
-  font-size: rem(46px);
-  line-height: rem(69px);
+  font-size: rem(46);
+  line-height: rem(69);
   font-weight: 500;
 }
 h2 {
   color: $orange;
-  font-size: rem(24px);
-  line-height: rem(36px);
+  font-size: rem(24);
+  line-height: rem(36);
   font-weight: 500;
 }
 h3 {
   text-transform: uppercase;
-  font-size: rem(18px);
-  line-height: rem(27px);
+  font-size: rem(18);
+  line-height: rem(27);
   font-weight: 600;
 }
 ul {
@@ -52,8 +52,8 @@ ul {
     border-bottom: 1px solid #fff;
   }
   a, a:visited, a:active, a:hover {
-    font-size: rem(25px);
-    line-height: rem(37px);
+    font-size: rem(25);
+    line-height: rem(37);
     text-decoration: none;
     color: white;
     &:active {
@@ -72,11 +72,12 @@ ul {
 
 // header
 
-.mobile-menu {
+.header-mobile-menu {
   background-color: $hdr-blue;
-  line-height: rem(48px);
-  height: rem(48px);
-  padding: 0 rem(20px);
+  line-height: rem(48);
+  height: rem(48);
+  font-size: rem(20);
+  font-weight: 700;
   a, a:visited, a:active, a:hover {
     color: #fff;
     text-decoration: none;
@@ -85,17 +86,31 @@ ul {
     float: right;
   }
 }
-.general-info {
+.header-logo-wrapper {
+  padding: rem(23) 0 rem(13) 0;
+  text-align: center;
+}
+.header-logo {
+  max-width: 100%;
+  max-height: rem(120);
+}
+.header-general-info {
   display: none;
   @include ss-breakpoint(md) {
     display: block;
   }
 }
-.main-nav {
+.header-main-nav {
   display: none;
   @include ss-breakpoint(md) {
     display: block;
   }
+}
+
+// homepage
+.home-graphic {
+  max-width: 100%;
+  max-height: rem(300);
 }
 
 footer {
@@ -108,21 +123,19 @@ footer {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: rem(80px);
-  padding-top: rem(59px);
+  height: rem(80);
+  padding-top: rem(59);
   .footer-copyright {
     display: table-cell;
     margin: 0 auto;
     vertical-align: middle;
-    height: rem(54px);
+    height: rem(54);
     background-color: #006b91;
     color: #fff;
     text-align: center;
     font-weight: 600;
-    line-height: rem(22px);
-    font-size: rem(18px);
-//    padding-top: rem(26px);
-//    padding-bottom: rem(16px);
+    line-height: rem(22);
+    font-size: rem(18);
     @include ss-breakpoint(md) { }
   }
 }

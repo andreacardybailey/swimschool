@@ -493,28 +493,41 @@ ul {
   .sb-slidebar {
     display: none; } }
 
-.mobile-menu {
+.header-mobile-menu {
   background-color: #00adef;
   line-height: 3rem;
   height: 3rem;
-  padding: 0 1.25rem; }
-  .mobile-menu a, .mobile-menu a:visited, .mobile-menu a:active, .mobile-menu a:hover {
+  font-size: 1.25rem;
+  font-weight: 700; }
+  .header-mobile-menu a, .header-mobile-menu a:visited, .header-mobile-menu a:active, .header-mobile-menu a:hover {
     color: #fff;
     text-decoration: none; }
-  .mobile-menu a:last-child {
+  .header-mobile-menu a:last-child {
     float: right; }
 
-.general-info {
+.header-logo-wrapper {
+  padding: 1.4375rem 0 0.8125rem 0;
+  text-align: center; }
+
+.header-logo {
+  max-width: 100%;
+  max-height: 7.5rem; }
+
+.header-general-info {
   display: none; }
   @media (min-width: 700px) {
-    .general-info {
+    .header-general-info {
       display: block; } }
 
-.main-nav {
+.header-main-nav {
   display: none; }
   @media (min-width: 700px) {
-    .main-nav {
+    .header-main-nav {
       display: block; } }
+
+.home-graphic {
+  max-width: 100%;
+  max-height: 18.75rem; }
 
 footer {
   display: table;
