@@ -1,0 +1,46 @@
+// homepage
+.home-graphic {
+  max-width: 100%;
+  max-height: u(rem(300px));
+  @include ss-breakpoint(md,-225) { max-height: u(rem(400px)); }
+  @include ss-breakpoint(md) { max-height: u(rem(532px)); }
+  @include ss-breakpoint(lg, +1) {
+    max-height: 100%;
+    position: relative;
+    top: u(rem(-70));
+    margin-bottom: u(rem(-70));
+  }
+  @include ss-breakpoint(lg) {
+    max-height: 100%;
+    position: relative;
+    top: u(rem(-70));
+//    margin-bottom: u(rem(-70));
+    z-index: 0;
+  }
+  @include ss-breakpoint(xl) {
+    top: u(rem(-90));
+    margin-bottom: u(rem(-90));
+  }
+}
+.home-learnToSwim {
+  background-color: #fff;
+  @include ss-breakpoint(lg) {
+    position: relative;
+    padding-top: u(rem(6));
+    top: u(rem(-75));
+    margin-bottom: u(rem(-75));
+    z-index: 1;
+  }
+  @include ss-breakpoint(xl) {
+    top: u(rem(-100));
+    margin-bottom: u(rem(-100));
+    z-index: 1;
+  }
+  h1 { text-align: center;}
+}
+
+.home-blurb {
+  text-align: center;
+  font-size: u(rem(24px));
+  line-height: u(rem(30px));
+}

@@ -9,6 +9,14 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="cleartype" content="on">
-    <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+      <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="/assets/styles/production/swimschool-ie.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <script src="/assets/javascripts/vendor/respond.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>

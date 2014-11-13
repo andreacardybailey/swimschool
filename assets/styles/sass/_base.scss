@@ -1,0 +1,57 @@
+html { background-color: $text-default-gray;}
+body {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  color: $text-default-gray;
+  font-size: u(rem(20px));
+  line-height: u(rem(30px));
+  max-width: u(rem(1800px));
+  margin: 0 auto;
+  background: #fff;
+}
+a, a:visited {
+  color: $orange;
+  &:active, &:not(.isTouchEnabled):hover {
+    color: $hdr-blue;
+  }
+}
+h1 {
+  color: $hdr-blue;
+  font-size: u(rem(40px));
+  line-height: u(rem(40px));
+  font-weight: 700;
+  margin: u(1.5rem) 0;
+}
+h2 {
+  color: $orange;
+  font-size: u(rem(24px));
+  line-height: u(rem(30px));
+  font-weight: 500;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: u(rem(18px));
+  line-height: u(rem(24px));
+  font-weight: 700;
+  margin: u(rem(18px)) 0;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: u(rem(14px));
+  line-height: u(rem(24px));
+  font-weight: 700;
+  margin: u(rem(14px)) 0;
+}
+ul {
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+.mobile {
+  @include ss-breakpoint(md) { display: none;}
+}
+.non-mobile {
+  display: none;
+  @include ss-breakpoint(md) { display: block;}
+}

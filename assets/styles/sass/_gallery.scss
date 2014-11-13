@@ -1,0 +1,28 @@
+.ss-gallery {
+  @include clearfix;
+  margin-top: u(2.5rem);
+}
+.ss-gallery-item {
+  margin-bottom: u(1.5rem);
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  @include gallery(2);
+  text-align: center;
+  h3 { margin-bottom: u(rem(4px));}
+  h4 { margin-top: u(rem(4px));}
+  @include ss-breakpoint(md) {
+    @include with-layout((gutters: 4/4)) { @include gallery(3); }
+    margin-bottom: u(1rem);
+  }
+  @include ss-breakpoint(lg) {
+    @include with-layout((gutters: 4/4)) { @include gallery(3); }
+    margin-bottom: u(1.5rem);
+  }
+  @include ss-breakpoint(xl) {
+    @include with-layout((gutters: 4/4)) { @include gallery(3); }
+    margin-bottom: u(1.5rem);
+  }
+}
+.ss-gallery-item--imgOnly { font-size: 0; line-height: 0; }
