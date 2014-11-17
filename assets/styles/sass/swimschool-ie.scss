@@ -1,16 +1,41 @@
-$px-only:true;
-
+//@import 'swimschool';
 @import '../../../bower_components/bourbon/dist/bourbon';
-@import '../../../bower_components/sassy-maps/sass/sassy-maps';
-@import '../../../bower_components/sassy-maps/sass/memo';
-@import '../../../bower_components/breakpoint-sass/stylesheets/breakpoint';
-@import 'susy';
-@import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600);
-@import '../helpers/helpers';
-@import '../helpers/rem_fallback';
-@import 'normalize';
-@import 'layouts';
 @import 'colors';
-@import 'core';
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600);
 
+@font-face {
+  font-family: 'fontello';
+  src: url('/assets/fonts/fontello.eot');
+  font-weight: normal;
+  font-style: normal;
+}
 
+.sb-Wrapper {
+  margin: 0 auto;
+  width: 1050px;
+}
+
+.home-graphic {
+  // won't stretch correctly!
+  display: none;
+}
+.home-learnToSwim {
+  position: static;
+  padding-top: 20px;
+}
+
+.header-nav li.register-now {
+  padding: 0 6px !important;
+  margin-left: 5px !important;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.header-nav {
+  .header-nav-link {
+    &:hover, &:active {
+      background-color: $dk-blue;
+    }
+  }
+}

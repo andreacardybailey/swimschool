@@ -9,23 +9,15 @@
     <!--[if (gt IE 8) | (IEMobile)]><!-->
       <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <!--<![endif]-->
-
     <!--[if (lt IE 9) & (!IEMobile)]>
       <script src="/assets/javascripts/vendor/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
     <![endif]-->
     <script src="/assets/javascripts/vendor/slidebars.js" type="text/javascript" charset="utf-8"></script>
     <script src="/assets/javascripts/swimschool.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-      // hide address bar for mobile devices
-      (function($){
-        if( !window.location.hash && window.addEventListener ){
-          window.addEventListener( "load",function() {
-              setTimeout(function(){
-                  window.scrollTo(0, 0);
-              }, 0);
-          });
-        }
-      })(jQuery);
-    </script>
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <script src="/assets/javascripts/vendor/ie/rem.js" type="text/javascript" charset="utf-8"></script>
+      <script src="/assets/javascripts/vendor/ie/webfont_fix.js" type="text/javascript" charset="utf-8"></script>
+      <script src="/assets/javascripts/vendor/ie/ie.js" type="text/javascript" charset="utf-8"></script>
+    <![endif]-->
   </body>
 </html>

@@ -1,0 +1,62 @@
+.ss-gallery {
+  @include clearfix;
+  margin-top: 2.5rem;
+}
+.ss-gallery-item {
+  margin-bottom: 1.5rem;
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  @include gallery(2);
+  text-align: center;
+  h3 { margin-bottom: rem(4px);}
+  h4 { margin-top: rem(4px);}
+  @include ss-breakpoint(md) {
+    @include with-layout((gutters: 4/4)) { @include gallery(3); }
+    margin-bottom: 1rem;
+  }
+  @include ss-breakpoint(lg) {
+    @include with-layout((gutters: 4/4)) { @include gallery(3); }
+    margin-bottom: 1.5rem;
+  }
+  @include ss-breakpoint(xl) {
+    @include with-layout((gutters: 4/4)) { @include gallery(3); }
+    margin-bottom: 1.5rem;
+  }
+}
+.ss-gallery-item--imgOnly { font-size: 0; line-height: 0; }
+
+// if the gallery is used in a sidebar
+.ss-sidebar {
+  display: none;
+  @include ss-breakpoint(lg) {
+    display: block;
+    @include span(last 4);
+    .ss-gallery {
+      margin-top: 0;
+    }
+    .ss-gallery-item {
+      border-bottom: 1px dashed $text-lt-gray;
+      clear: both;
+      width:100%;
+      margin-right: 0;
+      margin-left:0;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      &:last-child, &.last {
+        border-bottom: none;
+      }
+      img {
+        width: 37%;
+        max-width: 37%;
+        float: left;
+      }
+      .ss-gallery-item-description {
+        float: right;
+        width: 58%;
+        text-align: left;
+      }
+    }
+  }
+}

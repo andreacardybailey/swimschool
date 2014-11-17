@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Frequently Asked Questions';
+$pageTitle = 'Locations';
 include 'modules/main/head.php';
 include 'modules/main/header.php';
 ?>

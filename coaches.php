@@ -1,5 +1,6 @@
 <?php
-$pageTitle = 'Frequently Asked Questions';
+$pageTitle = 'Coaches';
+$current = "coaches";
 include 'modules/main/head.php';
 include 'modules/main/header.php';
 ?>

@@ -8,11 +8,11 @@ footer {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: u(rem(80px));
-  padding-top: u(rem(59px));
+  height: rem(80px);
+  padding-top: rem(59px);
   @include ss-breakpoint(md) {
-    height: u(rem(80px));
-    padding-top: u(rem(139px));
+    height: rem(80px);
+    padding-top: rem(139px);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,13 +28,13 @@ footer {
     display: table-cell;
     margin: 0 auto;
     vertical-align: middle;
-    height: u(rem(54px));
+    height: rem(54px);
     background-color: #006b91;
     color: #fff;
     text-align: center;
     font-weight: 600;
-    line-height: u(rem(22px));
-    font-size: u(rem(18px));
+    line-height: rem(22px);
+    font-size: rem(18px);
     @include ss-breakpoint(md) { }
   }
 }

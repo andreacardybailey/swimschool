@@ -3,9 +3,9 @@ body {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
   color: $text-default-gray;
-  font-size: u(rem(20px));
-  line-height: u(rem(30px));
-  max-width: u(rem(1800px));
+  font-size: rem(20px);
+  line-height: rem(30px);
+  max-width: rem(1800px);
   margin: 0 auto;
   background: #fff;
 }
@@ -15,32 +15,46 @@ a, a:visited {
     color: $hdr-blue;
   }
 }
+p, ul {
+  margin: .5rem 0 1.25rem 0;
+}
 h1 {
   color: $hdr-blue;
-  font-size: u(rem(40px));
-  line-height: u(rem(40px));
+  font-size: rem(40px);
+  line-height: rem(40px);
   font-weight: 700;
-  margin: u(1.5rem) 0;
+  margin: 0 0 2rem 0;
+  &.ss-mainhead {
+    margin-bottom: rem(20);
+  }
 }
 h2 {
   color: $orange;
-  font-size: u(rem(24px));
-  line-height: u(rem(30px));
+  font-size: rem(24px);
+  line-height: rem(30px);
   font-weight: 500;
+  margin: 0 0 .5rem 0;
+  &.ss-subhead {
+    font-size: rem(24px);
+    line-height: rem(30px);
+    color: $text-default-gray;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
 }
 h3 {
   text-transform: uppercase;
-  font-size: u(rem(18px));
-  line-height: u(rem(24px));
+  font-size: rem(18px);
+  line-height: rem(24px);
   font-weight: 700;
-  margin: u(rem(18px)) 0;
+  margin: 0 0 rem(18px) 0;
 }
 h4 {
   text-transform: uppercase;
-  font-size: u(rem(14px));
-  line-height: u(rem(24px));
+  font-size: rem(14px);
+  line-height: rem(24px);
   font-weight: 700;
-  margin: u(rem(14px)) 0;
+  margin: 0 0 rem(14px) 0;
 }
 ul {
   padding: 0;
@@ -54,4 +68,7 @@ ul {
 .non-mobile {
   display: none;
   @include ss-breakpoint(md) { display: block;}
+}
+.main {
+  margin-top: 3rem;
 }

@@ -48,7 +48,7 @@ module.exports = function(grunt) {
         tasks: ['jshint:gruntfile']
       },
 			css: {
-				files: 'assets/styles/sass/*.scss',
+				files: '**/*.scss',
 				tasks: ['sass']
 			}
     }

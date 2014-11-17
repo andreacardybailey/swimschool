@@ -1,5 +1,6 @@
 <?php
-$pageTitle = 'Frequently Asked Questions';
+$pageTitle = 'Gallery';
+$current = "gallery";
 include 'modules/main/head.php';
 include 'modules/main/header.php';
 ?>

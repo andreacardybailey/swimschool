@@ -1,5 +1,3 @@
-$px-only:false;
-
 @import '../../../bower_components/bourbon/dist/bourbon';
 @import '../../../bower_components/sassy-maps/sass/sassy-maps';
 @import '../../../bower_components/sassy-maps/sass/memo';
@@ -8,11 +6,8 @@ $px-only:false;
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600);
 @import 'fontello';
 @import '../helpers/helpers';
-@import '../helpers/rem_fallback';
 @import 'normalize';
 @import 'layouts';
 @import 'colors';
 @import 'slidebars';
 @import 'core';
-
-

@@ -1,0 +1,1 @@
+$("ul li:last-child").addClass("last");

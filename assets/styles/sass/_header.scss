@@ -1,7 +1,7 @@
 // hamburger nav
 .sb-slidebar {
   nav {
-    padding: 0 u(rem(40px));
+    padding: 0 rem(40px);
     font-weight: 700;
   }
   .register-now {
@@ -11,8 +11,8 @@
     border-bottom: 1px solid #fff;
   }
   a, a:visited, a:active, a:not(.isTouchEnabled):hover {
-    font-size: u(rem(25px));
-    line-height: u(rem(37px));
+    font-size: rem(25px);
+    line-height: rem(37px);
     text-decoration: none;
     color: white;
     &:active {
@@ -20,7 +20,7 @@
       text-decoration: underline;
     }
     i {
-      font-size:u(rem(18px));
+      font-size:rem(18px);
     }
   }
   @include ss-breakpoint(md) {
@@ -35,12 +35,15 @@ header {
   z-index: 1;
 }
 
-.header-preNav { background-color: #fff;}
+.header-preNav {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
 .header-mobile-menu {
   background-color: $hdr-blue;
-  line-height: u(rem(48px));
-  height: u(rem(48px));
-  font-size: u(rem(22px));
+  line-height: rem(48px);
+  height: rem(48px);
+  font-size: rem(22px);
   font-weight: 700;
   a, a:visited, a:active, a:not(.isTouchEnabled):hover, .non-mobile {
     color: #fff;
@@ -52,7 +55,7 @@ header {
   @include ss-breakpoint(lg) { display: none;}
 }
 .header-logo-wrapper {
-  padding: u(rem(23px)) 0;
+  padding: rem(23px) 0;
   text-align: center;
   @include ss-breakpoint(lg) {
     @include span(4);
@@ -61,77 +64,96 @@ header {
 }
 .header-logo {
   max-width: 90%;
-  max-height: u(rem(120px));
+  max-height: rem(120px);
   @include ss-breakpoint(lg) {
     max-width: 100%;
   }
   @include ss-breakpoint(xl) {
-    max-height: u(rem(140px));
+    max-height: rem(140px);
   }
 }
-.header-general-info {
+.header-generalInfo {
   display: none;
+  position: relative;
   @include ss-breakpoint(lg) {
+    @include clearfix;
     display: block;
-    @include span(last 7);
-    padding: u(rem(60px)) 0 0 0;
-    text-align: right;
-    font-size: u(rem(22px));
+    @include span(last 8);
+    font-size: rem(22px);
     font-weight: 700;
-    line-height: u(rem(18px));
-    em {
-      color: $text-lt-gray;
-      font-style: normal;
+    line-height: rem(18px);
+    .header-generalInfo-content {
+      float: right;
+      text-align: right;
+      padding: rem(60) 0 0 0;
+      em {
+        color: $text-lt-gray;
+        font-style: normal;
+      }
+      ul {
+        margin-top: 1rem;
+      }
+      li {
+        display: inline-block;
+        margin-right: 6px;
+        font-size: rem(18px);
+        // compensating for extra width of font icon
+        &:last-child { margin-right: -5px;}
+      }
     }
-    li {
-      display: inline-block;
-      margin-right: 6px;
-      font-size: u(rem(18px));
-      // compensating for extra width of font icon
-      &:last-child { margin-right: -5px;}
+    .header-generalInfo-seahorse {
+      max-width: rem(50);
+      float: right;
+      margin-left: 14px;
+      padding: rem(20) 0 0 0;
     }
   }
   @include ss-breakpoint(xl) {
-    padding: u(rem(65px)) 0 0 0;
+    .header-generalInfo-content {
+      padding: rem(65) 0 0 0;
+    }
+    .header-generalInfo-seahorse {
+      padding: rem(25) 0 0 0;
+    }
   }
 }
 .header-nav {
   display: none;
   @include ss-breakpoint(lg) {
     display: block;
-    height: u(rem(70px));
+    height: rem(70px);
     background-color: $nav-blue;
     opacity: .85;
     ul { margin:0; padding:0;}
     li {
       display: inline-block;
-      margin-right: u(.2rem);
+      margin-right: .2rem;
       .header-nav-link {
         display: block;
         color: #fff;
         cursor: pointer;
         text-decoration: none;
-        font-size: u(rem(22));
+        font-size: rem(22);
         font-weight: 700;
-        line-height: u(rem(22));
+        line-height: rem(22);
         background-color: $nav-blue;
         border-radius: 6px;
-        padding: u(rem(12));
-        margin-top: u(rem(12));
+        padding: rem(12);
+        margin-top: rem(12);
         &:visited {
           color: #fff;
         }
-        &:not(.isTouchEnabled):hover, &:active {
+        &:not(.isTouchEnabled):hover, &:active, &.current {
           background-color: $dk-blue;
         }
       }
       &.register-now {
         background-color: $orange;
-        height: u(rem(70));
+        height: rem(70);
         text-align: center;
         margin-right: 0;
-        float: right;
-        margin-left: u(rem(10));
+//        float: right;
+//        margin-left: rem(10);
         .header-nav-link {
           display: block;
           border-radius:0;
@@ -146,16 +168,16 @@ header {
   }
   @include ss-breakpoint(xl) {
     li {
-      margin-right: u(rem(18px));
-      font-size: u(rem(26));
-      line-height: u(rem(24));
+      margin-right: rem(18px);
+      font-size: rem(26);
+      line-height: rem(24);
       .header-nav-link {
-        padding: u(rem(12)) u(rem(20));
-        margin-top: u(rem(12));
+        padding: rem(12) rem(20);
+        margin-top: rem(12);
       }
       &.register-now {
-        margin-left: u(rem(10));
-        padding: 0 u(rem(20));
+        margin-left: rem(10);
+        padding: 0 rem(20);
         .header-nav-link {
           display: block;
           border-radius:0;
