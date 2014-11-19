@@ -800,7 +800,9 @@ header {
       opacity: .85; }
       .header-nav ul {
         margin: 0;
-        padding: 0; }
+        padding: 0;
+        white-space: nowrap;
+        overflow: hidden; }
       .header-nav li {
         display: inline-block;
         margin-right: .2rem; }

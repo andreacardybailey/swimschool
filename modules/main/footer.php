@@ -15,7 +15,6 @@
     <script src="/assets/javascripts/vendor/slidebars.js" type="text/javascript" charset="utf-8"></script>
     <script src="/assets/javascripts/swimschool.js" type="text/javascript" charset="utf-8"></script>
     <!--[if (lt IE 9) & (!IEMobile)]>
-      <script src="/assets/javascripts/vendor/ie/rem.js" type="text/javascript" charset="utf-8"></script>
       <script src="/assets/javascripts/vendor/ie/webfont_fix.js" type="text/javascript" charset="utf-8"></script>
       <script src="/assets/javascripts/vendor/ie/ie.js" type="text/javascript" charset="utf-8"></script>
     <![endif]-->
