@@ -13,98 +13,98 @@ include 'modules/main/header.php';
       <div id="slider" class="flexslider">
         <ul class="slides">
           <li>
-	    	    <img src="/assets/images/gallery/1.jpg" />
+            <img srcset="/assets/images/gallery/small/1.jpg 641w, /assets/images/gallery/1.jpg 1252w" alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/2.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/2.jpg 641w, /assets/images/gallery/2.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/4.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/4.jpg 641w, /assets/images/gallery/4.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/5.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/5.jpg 641w, /assets/images/gallery/5.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/6.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/6.jpg 641w, /assets/images/gallery/6.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/7.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/7.jpg 641w, /assets/images/gallery/7.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/8.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/8.jpg 641w, /assets/images/gallery/8.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/9.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/9.jpg 641w, /assets/images/gallery/9.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/10.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/10.jpg 641w, /assets/images/gallery/10.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/11.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/11.jpg 641w, /assets/images/gallery/11.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/12.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/12.jpg 641w, /assets/images/gallery/12.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/13.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/13.jpg 641w, /assets/images/gallery/13.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/15.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/15.jpg 641w, /assets/images/gallery/15.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/16.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/16.jpg 641w, /assets/images/gallery/16.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/17.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/17.jpg 641w, /assets/images/gallery/17.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
         </ul>
       </div>
       <div id="carousel" class="flexslider">
         <ul class="slides">
           <li>
-	    	    <img src="/assets/images/gallery/1.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/1.jpg 641w, /assets/images/gallery/1.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/2.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/2.jpg 641w, /assets/images/gallery/2.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/4.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/4.jpg 641w, /assets/images/gallery/4.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/5.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/5.jpg 641w, /assets/images/gallery/5.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/6.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/6.jpg 641w, /assets/images/gallery/6.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/7.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/7.jpg 641w, /assets/images/gallery/7.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/8.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/8.jpg 641w, /assets/images/gallery/8.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/9.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/9.jpg 641w, /assets/images/gallery/9.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/10.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/10.jpg 641w, /assets/images/gallery/10.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/11.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/11.jpg 641w, /assets/images/gallery/11.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/12.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/12.jpg 641w, /assets/images/gallery/12.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/13.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/13.jpg 641w, /assets/images/gallery/13.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
 	    		<li>
-	    	    <img src="/assets/images/gallery/15.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/15.jpg 641w, /assets/images/gallery/15.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/16.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/16.jpg 641w, /assets/images/gallery/16.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
           <li>
-	    	    <img src="/assets/images/gallery/17.jpg" />
+	    	    <img srcset="/assets/images/gallery/small/17.jpg 641w, /assets/images/gallery/17.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
         </ul>
       </div>
