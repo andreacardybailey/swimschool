@@ -1,23 +1,3 @@
-$( function(){
-  $.preload(
-    '/assets/images/gallery/1.jpg',
-    '/assets/images/gallery/2.jpg',
-    '/assets/images/gallery/4.jpg',
-    '/assets/images/gallery/5.jpg',
-    '/assets/images/gallery/6.jpg',
-    '/assets/images/gallery/7.jpg',
-    '/assets/images/gallery/8.jpg',
-    '/assets/images/gallery/9.jpg',
-    '/assets/images/gallery/10.jpg',
-    '/assets/images/gallery/11.jpg',
-    '/assets/images/gallery/12.jpg',
-    '/assets/images/gallery/13.jpg',
-    '/assets/images/gallery/15.jpg',
-    '/assets/images/gallery/16.jpg',
-    '/assets/images/gallery/17.jpg'
-  );
-});
-
 $(window).load(function(){
   $('#carousel').flexslider({
     animation: "slide",
@@ -26,7 +6,7 @@ $(window).load(function(){
     slideshow: false,
     itemWidth: 210,
     itemMargin: 5,
-    asNavFor: '#slider',
+    asNavFor: '#slider'
   });
 
   $('#slider').flexslider({
@@ -40,6 +20,5 @@ $(window).load(function(){
       $('.flexslider').css('opacity', '1');
     }
   });
-
 });
 
