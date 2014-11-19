@@ -6,8 +6,10 @@
         </div>
       </footer>
     </div>
+
     <!--[if (gt IE 8) | (IEMobile)]><!-->
       <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" src="/assets/javascripts/vendor/jquery.preload.min.js"></script>
     <!--<![endif]-->
     <!--[if (lt IE 9) & (!IEMobile)]>
       <script src="/assets/javascripts/vendor/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
