@@ -11,6 +11,9 @@
     <meta http-equiv="cleartype" content="on">
 
     <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
+    <?php if ($current == "gallery"): ?>
+      <link href="/assets/styles/production/flexslider.css" media="all" rel="stylesheet" type="text/css" />
+    <?php endif;?>
 
     <!--[if (lt IE 9) & (!IEMobile)]>
       <link href="/assets/styles/production/swimschool-ie.css" media="all" rel="stylesheet" type="text/css" />

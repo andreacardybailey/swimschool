@@ -1,7 +1,7 @@
       <footer>
         <div class="footer-copyright">
           <div class="ss-wrapper">
-            &copy; 2014 Saint Andrew's Swim School. All Rights Reserved.
+            &copy; <?php echo date("Y") ?> Saint Andrew's Swim School. All Rights Reserved.
           </div>
         </div>
       </footer>
@@ -14,6 +14,12 @@
     <![endif]-->
     <script src="/assets/javascripts/vendor/slidebars.js" type="text/javascript" charset="utf-8"></script>
     <script src="/assets/javascripts/swimschool.js" type="text/javascript" charset="utf-8"></script>
+      <?php if ($current == "gallery"): ?>
+        <script src="/assets/javascripts/vendor/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/assets/javascripts/gallery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/assets/javascripts/vendor/jquery.easing.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/assets/javascripts/vendor/jquery.mousewheel.js" type="text/javascript" charset="utf-8"></script>
+      <?php endif;?>
     <!--[if (lt IE 9) & (!IEMobile)]>
       <script src="/assets/javascripts/vendor/ie/webfont_fix.js" type="text/javascript" charset="utf-8"></script>
       <script src="/assets/javascripts/vendor/ie/ie.js" type="text/javascript" charset="utf-8"></script>

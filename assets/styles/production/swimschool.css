@@ -1066,6 +1066,12 @@ footer {
   font-size: 1.5rem;
   line-height: 1.875rem; }
 
+#carousel {
+  display: none; }
+  @media (min-width: 1024px) {
+    #carousel {
+      display: block; } }
+
 @media (min-width: 1024px) {
   .lessons {
     width: 57.62712%;

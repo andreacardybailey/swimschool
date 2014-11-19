@@ -1,3 +1,11 @@
+#carousel {
+  display: none;
+  @include ss-breakpoint(lg) {
+    display:block;
+
+  }
+}
+
 .lessons {
   @include ss-breakpoint(lg) {
     @include span(7);
