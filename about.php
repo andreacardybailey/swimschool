@@ -16,9 +16,6 @@ include 'modules/main/header.php';
       Our goal is that the students keep swimming as their skills become stronger to ensure their safety and to develop a love for water.</p>
       <p>Learning to swim is a necessity, not a luxury!</p>
     </section>
-    <section class="ss-sidebar">
-      <?php include 'modules/link_gallery.php' ?>
-    </section>
   </div>
 </section>
 

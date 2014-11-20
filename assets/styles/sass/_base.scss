@@ -70,7 +70,7 @@ ul {
   margin-top: 3rem;
 }
 
-.lessons, .about, .news {
+.lessons, .news {
   @include ss-breakpoint(lg) {
     @include span(7);
   }

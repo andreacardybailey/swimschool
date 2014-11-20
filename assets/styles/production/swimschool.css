@@ -682,7 +682,7 @@ ul {
   margin-top: 3rem; }
 
 @media (min-width: 1024px) {
-  .lessons, .about, .news {
+  .lessons, .news {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%; } }
