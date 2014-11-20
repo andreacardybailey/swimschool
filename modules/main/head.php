@@ -15,7 +15,10 @@
       <link href="/assets/styles/production/flexslider.css" media="all" rel="stylesheet" type="text/css" />
     <?php endif;?>
     <!--[if (gt IE 8) | (IEMobile)]><!-->
-      <script src="/assets/javascripts/vendor/picturefill.min.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+        document.createElement( "picture" );
+      </script>
+      <script async="true" src="/assets/javascripts/vendor/picturefill.js"></script>
     <!--<![endif]-->
 
     <!--[if (lt IE 9) & (!IEMobile)]>
