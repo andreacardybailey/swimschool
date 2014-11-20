@@ -24,6 +24,7 @@
   }
 
   $.preload(
+    '/assets/images/main-lessons.jpg',
     '/assets/images/gallery/1.jpg',
     '/assets/images/gallery/2.jpg',
     '/assets/images/gallery/4.jpg',
