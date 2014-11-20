@@ -72,3 +72,9 @@ ul {
 .main {
   margin-top: 3rem;
 }
+
+.lessons, .about, .news {
+  @include ss-breakpoint(lg) {
+    @include span(7);
+  }
+}

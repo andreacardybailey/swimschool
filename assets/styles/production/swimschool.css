@@ -683,6 +683,12 @@ ul {
 .main {
   margin-top: 3rem; }
 
+@media (min-width: 1024px) {
+  .lessons, .about, .news {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; } }
+
 .sb-slidebar nav {
   padding: 0 2.5rem;
   font-weight: 700; }
@@ -1071,12 +1077,6 @@ footer {
   @media (min-width: 1024px) {
     #carousel {
       display: block; } }
-
-@media (min-width: 1024px) {
-  .lessons {
-    width: 57.62712%;
-    float: left;
-    margin-right: 1.69492%; } }
 
 .lessons-description {
   margin-bottom: 2.5rem; }

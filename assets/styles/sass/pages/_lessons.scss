@@ -5,12 +5,6 @@
 
   }
 }
-
-.lessons {
-  @include ss-breakpoint(lg) {
-    @include span(7);
-  }
-}
 .lessons-description {
   margin-bottom: rem(40);
 }
