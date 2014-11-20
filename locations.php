@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Locations';
+$pageTitle = 'What to Expect';
 include 'modules/main/head.php';
 include 'modules/main/header.php';
 ?>

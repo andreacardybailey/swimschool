@@ -8,7 +8,7 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1>November Swimming News</h1>
+      <h1 class="ss-mainhead">November Swimming News</h1>
       <h2 class="ss-subhead">Hello Swimming Families!</h2>
       <p>November will be here soon and we want to remind everyone that it will not be too cold to swim!  The pools are heated (small pool 90 degrees, big pool 82 degrees).  It is important for the children to keep practicing so they don’t lose the skills they have learned and also so that they can keep progressing in their swimming abilities.</p>
       <p>Swimming will only be cancelled if the air is below 65, which does not happen often.  Those classes will receive make-ups.</p>

@@ -10,7 +10,7 @@
       <li><a href="gallery.php">GALLERY</a></li>
       <li><a href="news.php">LATEST NEWS</a></li>
       <li><a href="faqs.php">FAQs</a></li>
-      <li><a href="locations.php">LOCATIONS</a></li>
+      <li><a href="what-to-expect.php">WHAT TO EXPECT</a></li>
       <li><a href="contact.php">CONTACT US</a></li>
     </ul>
   </nav>
@@ -37,7 +37,7 @@
               <em>Toll Free: &nbsp;</em>844-FLA-SWIM &nbsp;&nbsp;<em>Local: &nbsp;</em>561-288-3817
               <ul>
                 <li><a href="faqs.php">FAQs<i class="icon-right-open"></i></a></li>
-                <li><a href="locations.php">LOCATIONS<i class="icon-right-open"></i></a></li>
+                <li><a href="what-to-expect.php">WHAT TO EXPECT<i class="icon-right-open"></i></a></li>
                 <li><a href="contact.php">CONTACT US<i class="icon-right-open"></i></a></li>
               </ul>
             </div>

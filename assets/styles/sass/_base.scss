@@ -24,6 +24,9 @@ h1 {
   line-height: rem(40px);
   font-weight: 700;
   margin: 0 0 1.5rem 0;
+  &.ss-mainhead {
+    margin-bottom: 1.25rem;
+  }
 }
 h2 {
   color: $orange;

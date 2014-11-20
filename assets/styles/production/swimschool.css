@@ -635,6 +635,8 @@ h1 {
   line-height: 2.5rem;
   font-weight: 700;
   margin: 0 0 1.5rem 0; }
+  h1.ss-mainhead {
+    margin-bottom: 1.25rem; }
 
 h2 {
   color: #f7931e;
@@ -1092,3 +1094,11 @@ footer {
       float: left;
       width: 400px;
       margin: .5rem 1.5rem .5rem 0; } }
+
+.what-to-expect-list {
+  margin-top: 1.5rem;
+  padding-left: 2.5rem;
+  list-style-position: outside; }
+  .what-to-expect-list li {
+    list-style-type: disc;
+    margin-bottom: 1.25rem; }
