@@ -1,0 +1,17 @@
+.leaders-pic {
+  margin-bottom: .75rem;
+  width: 100%;
+  @include ss-breakpoint(md, -220) {
+    float: left;
+    width: 60%;
+    margin: .5rem 1.5rem .5rem 0;
+  }
+  @include ss-breakpoint(md) {
+    float: left;
+    width: 400px;
+    margin: .5rem 1.5rem .5rem 0;
+  }
+  @include ss-breakpoint(lg) { }
+  @include ss-breakpoint(xl) {  }
+
+}

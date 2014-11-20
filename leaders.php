@@ -8,7 +8,7 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <section class="leaders">
       <h1>Cate &amp; Kara</h1>
-
+      <img src="/assets/images/owners.jpg" alt="Owners" class="leaders-pic">
       <p>Cate Schlembach began her swimming career as a C-Serpent at age 6 in Ocean City New Jersey.   In 1988, her love of swimming continued when she became a lifeguard and swim teacher.  When Cate attended Villanova University she taught swim lessons at the local YMCA.  In 1993, Cate became the Aquatics Director for Tilton Athletic Club in Atlantic County, New Jersey.  Her knowledge of swimming sent her to pursue a more active role to reduce the drowning statistics in South Florida and she became the Aquatics Director at The Polo Club in 1995.</p>
 
       <p>In 2004, an opportunity took Cate back to South Jersey where she created Miss Cate’s Swim School using the indoor pool in her home.  During this time, Cate and Kara’s mutual passion for teaching swimming introduced them to one another.   Although their lives led them to different areas swimming in their communities, Cate and Kara were reunited in South Florida, and they are now business partners at Florida Swim School. Cate and her husband Kris have two boys, Gavin and Logan, who share the same passion for the water, spending free time surfing together.</p>

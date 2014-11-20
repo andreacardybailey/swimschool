@@ -7,7 +7,7 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="about">
-      <h1 class="ss-mainhead">Mission Statement</h1>
+      <h1>Mission Statement</h1>
       <h2 class="ss-subhead">Florida Swim School teaches the
       life-saving skill of swimming in a safe environment with a nurturing method
       that builds self-confidence.</h2>

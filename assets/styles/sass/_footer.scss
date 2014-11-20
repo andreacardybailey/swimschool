@@ -35,6 +35,5 @@ footer {
     font-weight: 600;
     line-height: rem(22px);
     font-size: rem(18px);
-    @include ss-breakpoint(md) { }
   }
 }

@@ -23,10 +23,7 @@ h1 {
   font-size: rem(40px);
   line-height: rem(40px);
   font-weight: 700;
-  margin: 0 0 2rem 0;
-  &.ss-mainhead {
-    margin-bottom: rem(20);
-  }
+  margin: 0 0 1.5rem 0;
 }
 h2 {
   color: $orange;
@@ -39,7 +36,7 @@ h2 {
     line-height: rem(30px);
     color: $text-default-gray;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
   }
 }
 h3 {
