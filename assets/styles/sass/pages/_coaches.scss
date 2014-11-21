@@ -2,10 +2,9 @@
   .ss-gallery-item {
     img {
       border-radius: 4px;
-      @include ss-breakpoint(md, -220) {
-        width: 90%;
-        max-width: 90%;
-      }
+    }
+    @include ss-breakpoint(md, -220) {
+      @include with-layout((gutters: 4/4)) { @include gallery(4); }
     }
     @include ss-breakpoint(md) {
       @include with-layout((gutters: 4/4)) { @include gallery(4); }
