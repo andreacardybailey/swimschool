@@ -8,7 +8,7 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <section class="coaches">
       <h1>Florida Swim School Coaches</h1>
-      <p>Florida Swim School teaches the life-saving skill of swimming in a safe environment using a nurturing method that builds self- confidence.  All Coaches are lifeguard certified and trained with a method created by years of research and experience. We believe swimming is a necessity not a luxury.  Our coaches have a passion for swimming and knowledge to match!</p>
+      <p>Florida Swim School teaches the life-saving skill of swimming in a safe environment using a nurturing method that builds self-confidence.  All Coaches are lifeguard certified and trained with a method created by years of research and experience. We believe swimming is a necessity not a luxury.  Our coaches have a passion for swimming and knowledge to match!</p>
       <section class="ss-gallery coaches-gallery">
         <div class="ss-gallery-item">
           <img src="/assets/images/coaches/james.jpg" alt="James">
