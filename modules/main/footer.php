@@ -17,7 +17,6 @@
     <script src="/assets/javascripts/vendor/slidebars.js" type="text/javascript" charset="utf-8"></script>
     <script src="/assets/javascripts/swimschool.js" type="text/javascript" charset="utf-8"></script>
       <?php if ($current == "gallery"): ?>
-        <script src="/assets/javascripts/vendor/jquery.easing.js" type="text/javascript" charset="utf-8"></script>
         <script src="/assets/javascripts/vendor/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
         <script src="/assets/javascripts/gallery.js" type="text/javascript" charset="utf-8"></script>
       <?php endif;?>
