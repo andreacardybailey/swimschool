@@ -8,10 +8,10 @@
       }
     }
     @include ss-breakpoint(md) {
-      @include with-layout((gutters: 3/4)) { @include gallery(4); }
+      @include with-layout((gutters: 4/4)) { @include gallery(4); }
     }
     @include ss-breakpoint(lg) {
-      @include with-layout((gutters: 2/4)) { @include gallery(3); }
+      @include with-layout((gutters: 4/4)) { @include gallery(3); }
     }
     @include ss-breakpoint(xl) {
       @include with-layout((gutters: 2/4)) { @include gallery(2); }

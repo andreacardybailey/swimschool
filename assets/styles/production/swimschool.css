@@ -1089,7 +1089,7 @@ footer {
       max-width: 90%; } }
 @media (min-width: 700px) {
   .ss-gallery.coaches-gallery .ss-gallery-item {
-    width: 30.8642%;
+    width: 30.43478%;
     float: left; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(3n + 1) {
       margin-left: 0;
@@ -1097,16 +1097,16 @@ footer {
       clear: both;
       margin-left: 0; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(3n + 2) {
-      margin-left: 34.5679%;
+      margin-left: 34.78261%;
       margin-right: -100%;
       clear: none; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(3n + 3) {
-      margin-left: 69.1358%;
+      margin-left: 69.56522%;
       margin-right: -100%;
       clear: none; } }
 @media (min-width: 1024px) {
   .ss-gallery.coaches-gallery .ss-gallery-item {
-    width: 22.85714%;
+    width: 21.73913%;
     float: left; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(4n + 1) {
       margin-left: 0;
@@ -1114,15 +1114,15 @@ footer {
       clear: both;
       margin-left: 0; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(4n + 2) {
-      margin-left: 25.71429%;
+      margin-left: 26.08696%;
       margin-right: -100%;
       clear: none; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(4n + 3) {
-      margin-left: 51.42857%;
+      margin-left: 52.17391%;
       margin-right: -100%;
       clear: none; }
     .ss-gallery.coaches-gallery .ss-gallery-item:nth-child(4n + 4) {
-      margin-left: 77.14286%;
+      margin-left: 78.26087%;
       margin-right: -100%;
       clear: none; } }
 @media (min-width: 1300px) {
