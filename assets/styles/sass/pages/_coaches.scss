@@ -1,0 +1,20 @@
+.ss-gallery.coaches-gallery {
+  .ss-gallery-item {
+    img {
+      border-radius: 4px;
+      @include ss-breakpoint(md, -220) {
+        width: 90%;
+        max-width: 90%;
+      }
+    }
+    @include ss-breakpoint(md) {
+      @include with-layout((gutters: 3/4)) { @include gallery(4); }
+    }
+    @include ss-breakpoint(lg) {
+      @include with-layout((gutters: 2/4)) { @include gallery(3); }
+    }
+    @include ss-breakpoint(xl) {
+      @include with-layout((gutters: 2/4)) { @include gallery(2); }
+    }
+  }
+}

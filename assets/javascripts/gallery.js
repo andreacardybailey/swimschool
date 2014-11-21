@@ -6,6 +6,9 @@ $(window).load(function(){
     slideshow: false,
     itemWidth: 210,
     itemMargin: 5,
+    useCSS: false,
+    easing: "easeInQuint",
+    animationSpeed: 700,
     asNavFor: '#slider'
   });
 
@@ -14,6 +17,9 @@ $(window).load(function(){
     controlNav: false,
     animationLoop: false,
     slideshow: false,
+    useCSS: false,
+    easing: "easeInOutQuint",
+    animationSpeed: 700,
     sync: "#carousel",
     start: function(slider){
       $('body').removeClass('loading');

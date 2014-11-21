@@ -8,7 +8,7 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <section class="lessons">
       <div class="lessons-description">
-      <h1>Lessons</h1>
+      <h1>Class Descriptions</h1>
       <h2>Tadpoles (3-5 months)</h2>
       <p>Infants and adults will be in the pool together as baby becomes comfortable in the water.</p>
       </div>

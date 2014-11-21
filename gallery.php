@@ -8,7 +8,7 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="faqs">
-      <h1>Gallery</h1>
+      <h1>Florida Swim School Gallery</h1>
       <div id="slider" class="flexslider">
         <ul class="slides">
           <li>

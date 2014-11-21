@@ -21,6 +21,9 @@ include 'modules/main/header.php';
        <li>Thank you for trusting us as we teach your child the life-saving skill of swimming!</li>
       </ul>
     </section>
+    <section class="ss-sidebar">
+      <?php include 'modules/link_gallery.php' ?>
+    </section>
   </div>
 </section>
 <?php include 'modules/main/footer.php'; ?>
