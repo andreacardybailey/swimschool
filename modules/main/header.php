@@ -2,7 +2,7 @@
   <nav>
     <ul>
       <li class="register-now"><a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">REGISTER NOW<i class="icon-right-open"></i></a></li>
-      <li><a href="/">HOME</a></li>
+      <li><a href="/">HOME</a></li><a href="header.php" id="" title="header">header</a>
       <li><a href="about.php">ABOUT US</a></li>
       <li><a href="lessons.php">LESSONS</a></li>
       <li><a href="coaches.php">COACHES</a></li>
@@ -20,7 +20,7 @@
       <section class="header-mobile-menu">
         <div class="ss-wrapper">
           <a href="javascript:void(0);" class="sb-toggle-left"><i class="icon-menu"></i>Menu</a>
-          <a href="tel:+18443527946" class="mobile"><i class="icon-phone"></i>Contact Us</a>
+          <a href="tel:561-288-3817" class="mobile"><i class="icon-phone"></i>Contact Us</a>
           <div class="non-mobile">
             <i class="icon-phone"></i>Toll Free: &nbsp;844-FLA-SWIM
           </div>

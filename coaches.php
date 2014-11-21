@@ -53,12 +53,6 @@ include 'modules/main/header.php';
           </div>
         </div>
         <div class="ss-gallery-item">
-          <img src="/assets/images/coaches/stephanie.jpg" alt="Stephanie">
-          <div class="ss-gallery-item-description">
-            <h3>Stephanie</h3>
-          </div>
-        </div>
-        <div class="ss-gallery-item">
           <img src="/assets/images/coaches/whittaker_ann.jpg" alt="Whittaker Ann">
           <div class="ss-gallery-item-description">
             <h3>Whittaker Ann</h3>
