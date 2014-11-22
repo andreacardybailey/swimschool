@@ -1,7 +1,7 @@
       <footer>
         <div class="footer-copyright">
           <div class="ss-wrapper">
-            &copy; <?php echo date("Y") ?> Saint Andrew's Swim School. All Rights Reserved.
+            &copy; <?php echo date("Y") ?> Florida Swim School. All Rights Reserved.
           </div>
         </div>
       </footer>

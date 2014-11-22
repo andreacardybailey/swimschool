@@ -16,7 +16,7 @@ include 'modules/main/header.php';
        <li>The swimming teacher will continue to gain your child's trust during each class.</li>
        <li>There may be separation anxiety. If so, the second class may produce more apprehension than the first. Normally, by the third class, the child recognizes the teacher and is becoming comfortable.</li>
        <li>Students who are not potty trained must wear a swimming diaper covered with a reusable swim diaper.</li>
-       <li>Hair that is past the shoulders must be put in a swim cap. The firs cap will be provided by Florida Swim School and additional caps may be purchased as needed.</li>
+       <li>Hair that is past the shoulders must be put in a swim cap. The first cap will be provided by Florida Swim School and additional caps may be purchased as needed.</li>
        <li>Bring swimsuit, towel, and a smile. Congratulations on making the important decision to keep your child safer in the water.</li>
        <li>Thank you for trusting us as we teach your child the life-saving skill of swimming!</li>
       </ul>
