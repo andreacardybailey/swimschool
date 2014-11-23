@@ -1,7 +1,7 @@
       <footer>
         <div class="footer-copyright">
           <div class="ss-wrapper">
-            &copy; <?php echo date("Y") ?> Florida Swim School. All Rights Reserved.
+            <p>&copy; <?php echo date("Y") ?> Florida Swim School. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
