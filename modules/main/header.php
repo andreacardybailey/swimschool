@@ -2,7 +2,7 @@
   <nav>
     <ul>
       <li class="register-now"><a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">REGISTER NOW<i class="icon-right-open"></i></a></li>
-      <li><a href="/">HOME</a></li><a href="header.php" id="" title="header">header</a>
+      <li><a href="/">HOME</a></li>
       <li><a href="about.php">ABOUT US</a></li>
       <li><a href="lessons.php">LESSONS</a></li>
       <li><a href="coaches.php">COACHES</a></li>
