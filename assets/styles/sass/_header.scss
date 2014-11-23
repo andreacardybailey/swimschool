@@ -124,7 +124,13 @@ header {
     height: rem(70px);
     background-color: $nav-blue;
     opacity: .85;
-    ul { margin:0; padding:0; white-space: nowrap; overflow: hidden;}
+    ul {
+      margin:0;
+      padding:0;
+      white-space: nowrap;
+//      overflow: hidden;
+      position: relative;
+    }
     li {
       display: inline-block;
       margin-right: .2rem;
@@ -139,7 +145,7 @@ header {
         background-color: $nav-blue;
         border-radius: 6px;
         padding: rem(12) rem(9);
-        margin-top: rem(12);
+        margin-top: .75rem;
         &:visited {
           color: #fff;
         }
@@ -148,18 +154,20 @@ header {
         }
       }
       &.register-now {
-        background-color: $orange;
-        height: rem(70);
-        text-align: center;
-        margin-right: 0;
-        float: right;
-        padding: 0 rem(9);
+        position:absolute;
+        top: -.75rem;
+        right:0;
+        display: block;
         .header-nav-link {
+          background-color: $orange;
+          height: rem(70);
+          text-align: center;
+          padding:rem(24) rem(16) rem(12) rem(16);
           display: block;
           border-radius:0;
           background-color: $orange;
-          &:not(.isTouchEnabled):hover { text-decoration: underline; }
-          &:visited, &:not(.isTouchEnabled):hover, &:active {
+          &:not(.isTouchEnabled):hover, &:active { background-color: $hover-orange; }
+          &:visited {
             background-color: $orange;
           }
         }
@@ -177,9 +185,7 @@ header {
       }
       &.register-now {
         .header-nav-link {
-          display: block;
-          border-radius:0;
-          background-color: $orange;
+          padding: rem(24) rem(20) rem(12) rem(20);
         }
       }
     }
