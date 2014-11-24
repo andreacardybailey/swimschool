@@ -78,3 +78,17 @@ ul {
     @include span(7);
   }
 }
+
+.lessons-lifetimeMembership {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px dashed $text-lt-gray;
+  h2 {
+    white-space: nowrap;
+    span {
+      display:none;
+      @include ss-breakpoint(xl) {
+        display: inline;
+      }
+    }
+  }
+}

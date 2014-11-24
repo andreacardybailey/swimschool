@@ -22,6 +22,7 @@ include 'modules/main/header.php';
       Keeping children safer in the water is our priority!</p>
     </section>
     <section class="ss-sidebar">
+      <?php include 'modules/lifetime_membership.php' ?>
       <?php include 'modules/link_gallery.php' ?>
     </section>
   </div>

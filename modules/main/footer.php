@@ -20,6 +20,10 @@
         <script src="/assets/javascripts/vendor/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
         <script src="/assets/javascripts/gallery.js" type="text/javascript" charset="utf-8"></script>
       <?php endif;?>
+      <?php if ($current == "contact"): ?>
+        <script src="/assets/javascripts/vendor/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/assets/javascripts/contact.js" type="text/javascript" charset="utf-8"></script>
+      <?php endif;?>
     <!--[if (lt IE 9) & (!IEMobile)]>
       <script src="/assets/javascripts/vendor/ie/webfont_fix.js" type="text/javascript" charset="utf-8"></script>
       <script src="/assets/javascripts/vendor/ie/ie.js" type="text/javascript" charset="utf-8"></script>
