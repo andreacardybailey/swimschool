@@ -16,25 +16,31 @@ include 'modules/main/header.php';
             $mailheader = "From: ".$_POST["email"]."\r\n";
             $mailheader .= "Reply-To: ".$_POST["email"]."\r\n";
             $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-            $MESSAGE_BODY = "Name: ".$_POST["name"]."";
+            $MESSAGE_BODY = "First Name: ".$_POST["fname"]."";
+            $MESSAGE_BODY = "Last Name: ".$_POST["lname"]."";
             $MESSAGE_BODY .= "Email: ".$_POST["email"]."";
             $MESSAGE_BODY .= "Subject: ".$_POST["subject"]."";
             $MESSAGE_BODY .= "Comment: ".nl2br($_POST["message"])."";
             mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
         ?>
-        Thank you for contacting us! We will get back to you in 48-72 hours.
+        <h2>Thank you for contacting us! We will get back to you in 48-72 hours.</h2>
         <?php
         } else {
         ?>
         <h2>Send us a message</h2>
-        <form action="contact.php" method="post" id="contact">
+
+        <form action="contact.php" method="post" id="contact" autocomplete="on">
           <div>
-            <label for="name">Name: *</label>
-            <input name="name" type="text" id="name">
+            <label for="name">First Name: *</label>
+            <input autocomplete="on" name="fname" type="text" autocomplete="fname" id="fname">
+          </div>
+          <div>
+            <label for="name">Last Name: *</label>
+            <input autocomplete="on" name="lname" type="text" autocomplete="lname" id="lname">
           </div>
           <div>
             <label for="email">Email: *</label>
-            <input name="email" type="text" id="email">
+            <input autocomplete="on" name="email" type="text" autocomplete="email" id="email">
           </div>
           <div>
             <label for="subject">Subject: *</label>
