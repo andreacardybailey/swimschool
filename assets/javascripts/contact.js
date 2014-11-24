@@ -1,6 +1,9 @@
 $( "#contact" ).validate({
   rules: {
-    name: {
+    fname: {
+      required: true
+    },
+    lname: {
       required: true
     },
     email: {
