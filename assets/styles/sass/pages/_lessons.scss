@@ -7,3 +7,10 @@
 .lessons-description {
   margin-bottom: rem(40);
 }
+.lessons-description--lifetime {
+  border-top: 1px dashed $text-lt-gray;
+  padding-top: 1.5rem;
+  @include ss-breakpoint(lg) {
+    display: none;
+  }
+}

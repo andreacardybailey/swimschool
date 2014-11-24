@@ -7,10 +7,10 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="lessons">
-      <div class="lessons-description">
       <h1>Class Descriptions</h1>
-      <h2>Tadpoles (3-5 months)</h2>
-      <p>Infants and adults will be in the pool together as baby becomes comfortable in the water.</p>
+      <div class="lessons-description">
+        <h2>Tadpoles (3-5 months)</h2>
+        <p>Infants and adults will be in the pool together as baby becomes comfortable in the water.</p>
       </div>
       <div class="lessons-description">
         <h2>Minnows (6-24 months)</h2>
@@ -39,6 +39,10 @@ include 'modules/main/header.php';
       <div class="lessons-description">
         <h2>Private Classes or Stroke Mechanics</h2>
         <p>Classes for students age 4 and over are 20-30 minutes in length.  Proper swimming technique and water safety skills will be taught.  Stroke mechanics is provided for competitive and/or masters swimmers.</p>
+      </div>
+      <div class="lessons-description lessons-description--lifetime">
+        <h2>Lifetime Memberships Available!</h2>
+        <p>Lifetime memberships include unlimited weekly lessons and one pool party per year. Lifetime memberships never expire, and are available for a one-time fee of $2500. <a href="contact.php">Contact us</a> for more information.</p>
       </div>
     </section>
     <section class="ss-sidebar">
