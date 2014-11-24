@@ -23,7 +23,8 @@ include 'modules/main/header.php';
             $MESSAGE_BODY .= "Comment: ".nl2br($_POST["message"])."";
             mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
         ?>
-        <h2>Thank you for contacting us! We will get back to you in 48-72 hours.</h2>
+        <h2>Thank you for contacting us!</h2>
+        <p>We will get back to you in 48-72 hours.</p>
         <?php
         } else {
         ?>
