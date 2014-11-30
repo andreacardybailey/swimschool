@@ -23,10 +23,16 @@ include 'modules/main/header.php';
       <div class="lessons-description">
         <h2>Seahorses (4-5 years)</h2>
         <p>Classes are 30 minutes with no more than 4 swimmers.  Students in this class will learn all proper swimming skills to provide for a safer child.  Swimmers learn self-propulsion and independent swimming.  Once rolling over is learned, side-breathing and backstroke is taught.  Butterfly and breaststroke drills are introduced.</p>
+        <p>Seahorse 1 students are beginner swimmers who are not comfortable with their faces in the water.</p>
+        <p>Seahorse 2 students are comfortable with their faces in the water and able to float on their backs and swim unassisted.</p>
       </div>
       <div class="lessons-description">
         <h2>Dolphins (5-9 years)</h2>
         <p>Classes are 30 minutes with no more than 4 swimmers.  Students in this class are learning proper swimming skills, including side-breathing and backstroke.  Once side-breathing and backstroke are learned, butterfly and breaststroke are taught.</p>
+        <p>Dolphin 1 students are beginner swimmers, comfortable with their faces in the water.</p>
+        <p>Dolphin 2 students are able to side-breathe unassisted continuously and also kick on their backs.</p>
+        <p>If your child is in this age group but not comfortable in the water, please call for private lessons.</p>
+
       </div>
       <div class="lessons-description">
         <h2>Sharks (Pre-Team)</h2>
