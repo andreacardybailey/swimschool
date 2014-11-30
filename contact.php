@@ -11,17 +11,17 @@ include 'modules/main/header.php';
       <section class="contact-form">
         <?php
         if ($_POST["email"]<>'') {
-            $ToEmail = 'andrea.m.cardy@gmail.com';
+            $ToEmail = 'kara@flswimschool.com';
             $EmailSubject = 'Florida Swim School Contact Form';
             $mailheader = "From: ".$_POST["email"]."\r\n";
             $mailheader .= "Reply-To: ".$_POST["email"]."\r\n";
             $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-            $MESSAGE_BODY = "First Name: ".$_POST["fname"]."";
-            $MESSAGE_BODY = "Last Name: ".$_POST["lname"]."";
-            $MESSAGE_BODY .= "Email: ".$_POST["email"]."";
-            $MESSAGE_BODY .= "Subject: ".$_POST["subject"]."";
-            $MESSAGE_BODY .= "Comment: ".nl2br($_POST["message"])."";
-            mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
+            $MESSAGE_BODY = "<strong>First Name:</strong> ".$_POST["fname"]."<br>";
+            $MESSAGE_BODY .= "<strong>Last Name:</strong> ".$_POST["lname"]."<br>";
+            $MESSAGE_BODY .= "<strong>Email:</strong> ".$_POST["email"]."<br>";
+            $MESSAGE_BODY .= "<strong>Subject:</strong> ".$_POST["subject"]."<br>";
+            $MESSAGE_BODY .= "<strong>Message:</strong> ".nl2br($_POST["message"])."<br>";
+            mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
         ?>
         <h2>Thank you for contacting us!</h2>
         <p>We will get back to you in 48-72 hours.</p>
