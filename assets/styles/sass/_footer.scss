@@ -37,6 +37,25 @@ footer {
     font-size: rem(18px);
     p {
       margin: .5rem 0;
+      @include ss-breakpoint(md) {
+        text-align: left;
+        float: left;
+        width: rem(350);
+      }
+    }
+    .chamber-logo {
+      display: none;
+      @include ss-breakpoint(md) {
+        display: block;
+        text-align: left;
+        text-indent: -999em;
+        float: right;
+        height: rem(30px);
+        width: rem(144);
+        background: url("/assets/images/brcc.png") top left no-repeat;
+        background-size: contain;
+        margin-top: rem(6);
+      }
     }
   }
 }

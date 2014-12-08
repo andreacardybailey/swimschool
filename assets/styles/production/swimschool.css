@@ -911,6 +911,24 @@ footer {
     font-size: 1.125rem; }
     footer .footer-copyright p {
       margin: .5rem 0; }
+      @media (min-width: 700px) {
+        footer .footer-copyright p {
+          text-align: left;
+          float: left;
+          width: 21.875rem; } }
+    footer .footer-copyright .chamber-logo {
+      display: none; }
+      @media (min-width: 700px) {
+        footer .footer-copyright .chamber-logo {
+          display: block;
+          text-align: left;
+          text-indent: -999em;
+          float: right;
+          height: 1.875rem;
+          width: 9rem;
+          background: url("/assets/images/brcc.png") top left no-repeat;
+          background-size: contain;
+          margin-top: 0.375rem; } }
 
 .ss-gallery {
   margin-top: 2.5rem; }

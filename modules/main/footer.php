@@ -2,6 +2,7 @@
         <div class="footer-copyright">
           <div class="ss-wrapper">
             <p>&copy; <?php echo date("Y") ?> Florida Swim School. All Rights Reserved.</p>
+            <a href="http://www.bocaratonchamber.com/" target="_blank" class="chamber-logo">Boca Raton Chamber of Commerce</a>
           </div>
         </div>
       </footer>
