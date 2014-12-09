@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://flswimschool.com/</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/about.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/lessons.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/coaches.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/leaders.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/gallery.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/news.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/faqs.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/what-to-expect.php</loc>
+</url>
+<url>
+  <loc>http://flswimschool.com/contact.php</loc>
+</url>
+</urlset>
