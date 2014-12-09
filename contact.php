@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'Contact Us';
 $current = "contact";
+require_once ($_SERVER['DOCUMENT_ROOT'] . "/inc/db.connect.inc.php");
 include 'modules/main/head.php';
 include 'modules/main/header.php';
 ?>
@@ -22,6 +23,27 @@ include 'modules/main/header.php';
             $MESSAGE_BODY .= "<strong>Subject:</strong> ".$_POST["subject"]."<br>";
             $MESSAGE_BODY .= "<strong>Message:</strong> ".nl2br($_POST["message"])."<br>";
             mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
+
+          	$sql = "INSERT INTO `contacts` (
+          	`first_name`,
+          	`last_name`,
+          	`email`,
+          	`subject`,
+          	`message`,
+          	`timestamp`
+          	 )
+
+          	VALUES (
+          	'".addslashes($_POST['fname'])."',
+          	'".addslashes($_POST['lname'])."',
+          	'".addslashes($_POST['email'])."',
+          	'".addslashes($_POST['subject'])."',
+            '".addslashes($_POST['message'])."',
+          	NOW()
+
+          	);";
+
+            mysql_query($sql) or die(mysql_error());
         ?>
         <h2>Thank you for contacting us!</h2>
         <p>We will get back to you in 48-72 hours.</p>
