@@ -8,18 +8,25 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">November Swimming News</h1>
-      <h2 class="ss-subhead">Hello Swimming Families!</h2>
-      <p>November will be here soon and we want to remind everyone that it will not be too cold to swim!  The pools are heated (small pool 90 degrees, big pool 82 degrees).  It is important for the children to keep practicing so they don’t lose the skills they have learned and also so that they can keep progressing in their swimming abilities.</p>
-      <p>Swimming will only be cancelled if the air is below 65, which does not happen often.  Those classes will receive make-ups.</p>
-      <p>Our indoor pool may be ready as soon as November!  Please like Florida Swim School on Facebook and see updates.  Please send any swimming pictures or videos you will allow us to share and we will can post there.</p>
-      <p><strong>Florida Swim School has an exciting new program for care-takers&hellip;</strong><br />
-      Does your child’s care-taker know how to swim?  We are offering 50% discount for the first month of group swimming lessons for these adults.  Parents, this includes you!  Of course, private lessons are also available without a discount.</p>
-      <p>The adult Stingray group is becoming popular!  They swim Monday and Friday 8:15-9:15 and have fun working out in the pool!  This is a fitness group for those already swimming at least 25 yards.
-      Florida Swim School now has <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">online registration</a>! The referral program is always in place.  Refer a friend and receive $20 credit when your friend registers!</p>
-      <p>There will be no classes Thursday, November 27 for Thanksgiving.  We will have classes on Saturday of that weekend.</p>
-      <p>Our philosophy is that since children are continually developing physiologically, so are their abilities in the water.  Therefore children should be enrolled in swimming classes regularly so their skills grow with them.  We offer every level of swimming for all abilities and our goal is that the students remain in swimming as their skills become stronger and they become safer.
-      Keeping children safer in the water is our priority!</p>
+      <h1 class="ss-mainhead">January Swimming News</h1>
+      <p>Happy New Year!  2015 will be what you make of it so choose to be positive!</p>
+
+      <p>Holidays are a busy time and hopefully all were able to spend some quality time with family.  Some of our swimming families took some time away from the pool either due to hectic schedules or cool weather.</p>
+
+      <p>Florida Swim School realizes that schedules easily get filled and children are busier than ever!  Please remember the importance of keeping swimming in their busy schedules.  Swimming is a different type of activity, wherein time away from organized, professional swim class will result in a regression of swimming skills.</p>
+
+      <p>Florida Swim School will continue to provide a flexible schedule to suit your scheduling needs, because we understand the importance of swim classes.  Let us help you keep your children swimming so that they are safer in the water.</p>
+
+      <p>Florida Swim School recently posted an article on its Facebook page and we hope you will like our page and visit us there often.  Copied below is a portion of that article written by colleague Lana Whitehead for <em>Brainworld</em>.  Lana is an expert in child development, specifically the benefits of swimming and child development:</p>
+
+      <blockquote>…there’s a big bonus for a child who learns to swim! It helps them get ready for learning and school. Scientific studies of young swimmers at the German Sports College have shown that early water stimulation helps the child develop: physically, mentally and emotionally. Compared with a control group that did not take year-round lessons, the children who swam consistently from infancy (three months) were significantly stronger and more coordinated when tested at 2, 3 and 4 years. The children also scored higher for intelligence and problem-solving, which carried over into excellence in academic achievement. Emotionally, they were found to be more self-disciplined with greater self-control and an increased desire to succeed. The consistent goal setting and skill achievement in swimming can help them feel great about themselves as they have fun splashing around.</blockquote>
+
+      <p>It may be Winter in Boca Raton, Florida, but it is not too cold to swim!  Remember that Florida Swim School pools are heated up to 90 degrees.  When the “cold” weather comes, it often lasts 1-2 days so there is no need to cancel swim classes.  We will only cancel if the air is cooler than 65 degrees, otherwise Florida Swim School teachers are at the pool for you!</p>
+
+      <p>The indoor pool is progressing and the water tank is being installed!  Stay tuned for updates on Florida Swim School’s indoor location in Boca Raton, Florida!</p>
+
+      <p>See you at the pool,<br />
+      Kara and Cate</p>
     </section>
     <section class="ss-sidebar">
       <?php include 'modules/lifetime_membership.php' ?>
