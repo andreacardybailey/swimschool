@@ -8,7 +8,7 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <section class="lessons">
       <h1>Swim Lessons &ndash; Class Descriptions</h1>
-      <h2 class="ss-subhead">All lessons are held at our swim center in Boca Raton, FL.</h2>
+      <h2 class="ss-subhead">Florida Swim School pools are located in Boca Raton, Florida.</h2>
       <div class="lessons-description">
         <h2>Tadpoles (3-5 months)</h2>
         <p>Infants and adults will be in the pool together as baby becomes comfortable in the water.</p>
