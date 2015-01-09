@@ -1,8 +1,11 @@
       <footer>
         <div class="footer-copyright">
           <div class="ss-wrapper">
-            <p>&copy; <?php echo date("Y") ?> Florida Swim School. All Rights Reserved.</p>
-            <a href="http://www.bocaratonchamber.com/" target="_blank" class="chamber-logo">Boca Raton Chamber of Commerce</a>
+            <ul>
+              <li>&copy; <?php echo date("Y") ?> Florida Swim School</li>
+              <li><span>&nbsp;&bull;&nbsp;&nbsp;</span>3900 Jog Road, Boca Raton, FL 33434</li>
+            </ul>
+            <a href="http://www.bocaratonchamber.com/" target="_blank" class="chamber-logo">Boca Raton Chamber of Commerce. Serving South Palm Beach County.</a>
           </div>
         </div>
       </footer>

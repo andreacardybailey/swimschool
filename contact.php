@@ -8,7 +8,7 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="contact">
-      <h1>Contact Us</h1>
+      <h1>Contact Florida Swim School</h1>
       <section class="contact-form">
         <?php
         if ($_POST["email"]<>'') {

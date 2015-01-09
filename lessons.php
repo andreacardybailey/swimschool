@@ -7,7 +7,8 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="lessons">
-      <h1>Class Descriptions</h1>
+      <h1>Swim Lessons &ndash; Class Descriptions</h1>
+      <h2 class="ss-subhead">All lessons are held at our swim center in Boca Raton, FL.</h2>
       <div class="lessons-description">
         <h2>Tadpoles (3-5 months)</h2>
         <p>Infants and adults will be in the pool together as baby becomes comfortable in the water.</p>
@@ -18,11 +19,11 @@ include 'modules/main/header.php';
       </div>
       <div class="lessons-description">
         <h2>Turtles (2-3)</h2>
-        <p>Students will be taught in a private setting.  Private classes are 15 minutes and parents are invited, but not required, to be in the water too!  Safety skills taught include:  going under water and propelling forward, jumping off the side and swimming back to the wall, paddling face down and rolling over to a back float. Kicking on the back is introduced. Skill progression varies as students develop physiologically.</p>
+        <p>Students will be taught in a private setting.  Private swim lessons are 15 minutes and parents are invited, but not required, to be in the water too!  Safety skills taught include:  going under water and propelling forward, jumping off the side and swimming back to the wall, paddling face down and rolling over to a back float. Kicking on the back is introduced. Skill progression varies as students develop physiologically.</p>
       </div>
       <div class="lessons-description">
         <h2>Seahorses (4-5 years)</h2>
-        <p>Classes are 30 minutes with no more than 4 swimmers.  Students in this class will learn all proper swimming skills to provide for a safer child.  Swimmers learn self-propulsion and independent swimming.  Once rolling over is learned, side-breathing and backstroke is taught.  Butterfly and breaststroke drills are introduced.</p>
+        <p>Swim lessons are 30 minutes with no more than 4 swimmers.  Students in this class will learn all proper swimming skills to provide for a safer child.  Swimmers learn self-propulsion and independent swimming.  Once rolling over is learned, side-breathing and backstroke is taught.  Butterfly and breaststroke drills are introduced.</p>
         <p>Seahorse 1 students are beginner swimmers who are not comfortable with their faces in the water.</p>
         <p>Seahorse 2 students are comfortable with their faces in the water and able to float on their backs and swim unassisted.</p>
       </div>
@@ -43,8 +44,8 @@ include 'modules/main/header.php';
         <p>This  fitness class is an hour in length and focuses on proper stroke technique and endurance to provide exercise without impact.  The teen group is for 12-18 years and the adult group is over 18.</p>
       </div>
       <div class="lessons-description">
-        <h2>Private Classes or Stroke Mechanics</h2>
-        <p>Classes for students age 4 and over are 20-30 minutes in length.  Proper swimming technique and water safety skills will be taught.  Stroke mechanics are provided for competitive and/or masters swimmers.</p>
+        <h2>Private Lessons / Stroke Mechanics</h2>
+        <p>Private swim lessons for students age 4 and over are 20-30 minutes in length.  Proper swimming technique and water safety skills will be taught.  Stroke mechanics are provided for competitive and/or masters swimmers.</p>
       </div>
       <div class="lessons-description lessons-description--lifetime">
         <h2>Lifetime Memberships Available!</h2>
