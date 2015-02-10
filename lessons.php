@@ -18,8 +18,12 @@ include 'modules/main/header.php';
         <p>Baby & Me group classes for 30 minutes include an adult in the water with the  baby.  Proper handling of baby in the water will be taught, along with promoting comfort in water for baby and adult!  Safety skills will be introduced and practiced in each class.  Private instruction is also available for 15 minutes.</p>
       </div>
       <div class="lessons-description">
-        <h2>Turtles (2-3)</h2>
+        <h2>Turtles (2 years)</h2>
         <p>Students will be taught in a private setting.  Private swim lessons are 15 minutes and parents are invited, but not required, to be in the water too!  Safety skills taught include:  going under water and propelling forward, jumping off the side and swimming back to the wall, paddling face down and rolling over to a back float. Kicking on the back is introduced. Skill progression varies as students develop physiologically.</p>
+      </div>
+      <div class="lessons-description">
+        <h2>Starfish (3 years)</h2>
+        <p>Starfish are private 15 minutes, or 30 minute group with 3 students.  Safety skills taught include: going under water and propelling forward, jumping off the side and swimming back to the wall, paddling face down and rolling over to a back float. Kicking on the back is introduced. Skill progression varies as students develop physiologically.</p>
       </div>
       <div class="lessons-description">
         <h2>Seahorses (4-5 years)</h2>
@@ -37,7 +41,7 @@ include 'modules/main/header.php';
       </div>
       <div class="lessons-description">
         <h2>Sharks (Pre-Team)</h2>
-        <p>Students in the Sharks classes are able to swim at least 20 yards of freestyle and backstroke.  Butterfly, breaststroke, and flip turns are taught, as well as competitive terms and rules.  Pre-Team is 45 minutes in length with no more than 8 students for each teacher.  The focus of this group is endurance, competitive swimming strokes and rules.</p>
+        <p>Students in the Sharks classes are able to swim at least 20 yards of freestyle and backstroke.  Butterfly, breaststroke, and flip turns are taught, as well as competitive terms and rules.  Pre-Team is 30 minutes in length with no more than 4 students for each teacher.  The focus of this group is endurance, competitive swimming strokes and rules.</p>
       </div>
       <div class="lessons-description">
         <h2>Stingrays and Adult Stingrays</h2>
