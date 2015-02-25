@@ -4,14 +4,15 @@
 }
 .ss-gallery-item {
   margin-bottom: 1.5rem;
+  // fixing ios bug - why do I need this??
+  @include gallery(1.99);
+  text-align: center;
+  h3 { margin-bottom: rem(4px);}
+  h4 { margin-top: rem(4px);}
   img {
     width: 100%;
     max-width: 100%;
   }
-  @include gallery(2);
-  text-align: center;
-  h3 { margin-bottom: rem(4px);}
-  h4 { margin-top: rem(4px);}
   @include ss-breakpoint(md) {
     @include with-layout((gutters: 4/5)) { @include gallery(2.4); }
     margin-bottom: 1rem;

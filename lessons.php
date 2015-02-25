@@ -15,7 +15,7 @@ include 'modules/main/header.php';
       </div>
       <div class="lessons-description">
         <h2>Minnows (6-24 months)</h2>
-        <p>Baby & Me group classes for 30 minutes include an adult in the water with the  baby.  Proper handling of baby in the water will be taught, along with promoting comfort in water for baby and adult!  Safety skills will be introduced and practiced in each class.  Private instruction is also available for 15 minutes.</p>
+        <p>Baby &amp; Me group classes for 30 minutes include an adult in the water with the  baby.  Proper handling of baby in the water will be taught, along with promoting comfort in water for baby and adult!  Safety skills will be introduced and practiced in each class.  Private instruction is also available for 15 minutes.</p>
       </div>
       <div class="lessons-description">
         <h2>Turtles (2 years)</h2>

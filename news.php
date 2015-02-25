@@ -8,25 +8,21 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">January Swimming News</h1>
-      <p>Happy New Year!  2015 will be what you make of it so choose to be positive!</p>
-
-      <p>Holidays are a busy time and hopefully all were able to spend some quality time with family.  Some of our swimming families took some time away from the pool either due to hectic schedules or cool weather.</p>
-
-      <p>Florida Swim School realizes that schedules easily get filled and children are busier than ever!  Please remember the importance of keeping swimming in their busy schedules.  Swimming is a different type of activity, wherein time away from organized, professional swim class will result in a regression of swimming skills.</p>
-
-      <p>Florida Swim School will continue to provide a flexible schedule to suit your scheduling needs, because we understand the importance of swim classes.  Let us help you keep your children swimming so that they are safer in the water.</p>
-
-      <p>Florida Swim School recently posted an article on its Facebook page and we hope you will like our page and visit us there often.  Copied below is a portion of that article written by colleague Lana Whitehead for <em>Brainworld</em>.  Lana is an expert in child development, specifically the benefits of swimming and child development:</p>
-
-      <blockquote>…there’s a big bonus for a child who learns to swim! It helps them get ready for learning and school. Scientific studies of young swimmers at the German Sports College have shown that early water stimulation helps the child develop: physically, mentally and emotionally. Compared with a control group that did not take year-round lessons, the children who swam consistently from infancy (three months) were significantly stronger and more coordinated when tested at 2, 3 and 4 years. The children also scored higher for intelligence and problem-solving, which carried over into excellence in academic achievement. Emotionally, they were found to be more self-disciplined with greater self-control and an increased desire to succeed. The consistent goal setting and skill achievement in swimming can help them feel great about themselves as they have fun splashing around.</blockquote>
-
-      <p>It may be Winter in Boca Raton, Florida, but it is not too cold to swim!  Remember that Florida Swim School pools are heated up to 90 degrees.  When the “cold” weather comes, it often lasts 1-2 days so there is no need to cancel swim classes.  We will only cancel if the air is cooler than 65 degrees, otherwise Florida Swim School teachers are at the pool for you!</p>
-
-      <p>The indoor pool is progressing and the water tank is being installed!  Stay tuned for updates on Florida Swim School’s indoor location in Boca Raton, Florida!</p>
-
-      <p>See you at the pool,<br />
-      Kara and Cate</p>
+      <h1 class="ss-mainhead">February Swimming News</h1>
+      <p>Florida Swim School is happy to see the swimmers improving their skills in the pool!  Spring is around the corner so be sure to tell your friends to schedule their classes now.  Florida Swim School offers $20 credit for every referral!</p>
+      <p>Swimming in Boca Raton is usually very warm.  The past two weeks Florida Swim School was forced to cancel some classes due to very cold weather.  We have not figured out how to control the weather, but we will honor those cancelled classes with make-ups, so please contact us to schedule.  </p>
+      <p>The indoor facility of Florida Swim School in Boca Raton is making progress.  There have been some hurdles and delays, but we will be open soon! At this point we will not offer a date and we will keep you posted.</p>
+      <p>Florida Swim School does not keep the same schedule as the public or private academic schools.  When there is a school holiday, Florida Swim School is still operating the regular schedule.  <strong><u>During school spring break, Florida Swim School will have classes at the regular times.</u></strong> Teachers are scheduled accordingly, so please let us know any time you will miss class.</p>
+      <p>There are NO classes on the following days:</p>
+      <ul>
+        <li>January 1 &ndash; New Year's Day</li>
+        <li>May 25 &ndash; Memorial Day</li>
+        <li>July 4 &ndash; Independence Day</li>
+        <li>September 7 &ndash; Labor Day</li>
+        <li>November 25-26 &ndash; Thanksgiving</li>
+        <li>December 25 &ndash; Christmas</li>
+      </ul>
+      <p>Follow us on Facebook <a href="https://www.facebook.com/swimclassesflorida"target="_blank">Florida Swim School</a>, Twitter <a href="https://twitter.com/flswimschool" target="_blank">@FLSwimSchool</a></p>
     </section>
     <section class="ss-sidebar">
       <?php include 'modules/lifetime_membership.php' ?>
