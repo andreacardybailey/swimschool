@@ -8,21 +8,10 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">February Swimming News</h1>
-      <p>Florida Swim School is happy to see the swimmers improving their skills in the pool!  Spring is around the corner so be sure to tell your friends to schedule their classes now.  Florida Swim School offers $20 credit for every referral!</p>
-      <p>Swimming in Boca Raton is usually very warm.  The past two weeks Florida Swim School was forced to cancel some classes due to very cold weather.  We have not figured out how to control the weather, but we will honor those cancelled classes with make-ups, so please contact us to schedule.  </p>
-      <p>The indoor facility of Florida Swim School in Boca Raton is making progress.  There have been some hurdles and delays, but we will be open soon! At this point we will not offer a date and we will keep you posted.</p>
-      <p>Florida Swim School does not keep the same schedule as the public or private academic schools.  When there is a school holiday, Florida Swim School is still operating the regular schedule.  <strong><u>During school spring break, Florida Swim School will have classes at the regular times.</u></strong> Teachers are scheduled accordingly, so please let us know any time you will miss class.</p>
-      <p>There are NO classes on the following days:</p>
-      <ul>
-        <li>January 1 &ndash; New Year's Day</li>
-        <li>May 25 &ndash; Memorial Day</li>
-        <li>July 4 &ndash; Independence Day</li>
-        <li>September 7 &ndash; Labor Day</li>
-        <li>November 25-26 &ndash; Thanksgiving</li>
-        <li>December 25 &ndash; Christmas</li>
-      </ul>
-      <p>Follow us on Facebook <a href="https://www.facebook.com/swimclassesflorida"target="_blank">Florida Swim School</a>, Twitter <a href="https://twitter.com/flswimschool" target="_blank">@FLSwimSchool</a></p>
+      <h1 class="ss-mainhead">March Swimming News</h1>
+      <p>Finally winter is over in Boca Raton! That was a cold two weeks! Now we can get our swimming schedules in place at Florida Swim School so our children can practice their swimming skills and learn new ones before summer! Keep in mind that repetition is how children learn best. After all, it takes approximately 6 months for them to learn to crawl and they practice that all day every day! It takes a year and sometimes more for children to learn to walk practicing every day for several hours&hellip; Swimming is different since the children are in a new environment (water), with limited senses, so learning the life-saving skill of swimming takes commitment. Florida Swim School is dedicated to teaching swimming and we thank our families for trusting us with their precious children.</p>
+      <p>Florida Swim School is getting closer to opening their indoor facility! Once we have a tentative date, we will post it. Please check our <a href="https://www.facebook.com/swimclassesflorida" target="_blank">Facebook page</a> for updates and pictures. There will be swim classes at both locations. We will have <strong><em>indoor</em></strong> Splash Camp this summer and registration will be open next week. We will have Splash Camp the weeks of June 8, June 15, August 3, August 10. We may add weeks depending on popularity. Hours will be 9am-3pm and the camp is for ages 4-11. Early drop-off and late pick up will be available. We will provide a typical day and pricing on our website by March 12.</p>
+      <p>Swim classes will continue with the same schedule through all spring breaks. If your child will not be attending, be sure to contact us in advance in order to secure a make-up class.</p>
     </section>
     <section class="ss-sidebar">
       <?php include 'modules/lifetime_membership.php' ?>
