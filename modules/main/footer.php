@@ -10,7 +10,7 @@
         </div>
       </footer>
     </div>
-
+    <?php include_once("inc/analyticstracking.php") ?>
     <!--[if (gt IE 8) | (IEMobile)]><!-->
       <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
       <script type="text/javascript" src="/assets/javascripts/vendor/jquery.preload.min.js"></script>
