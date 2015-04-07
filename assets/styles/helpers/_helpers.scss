@@ -1,0 +1,65 @@
+
+// Get the first item in a list.
+//
+@function ss-first(
+  $list
+) {
+  @return nth($list, 1);
+}
+
+// Get the last item in a list.
+//
+@function ss-last(
+  $list
+) {
+  @return nth($list, length($list));
+}
+
+// Take a list of selectors and map them to a new set of selectors using a template.
+//
+@function ss-map-selectors(
+  $list,
+  $template
+) {
+  $selectors: ();
+  @each $value in $list {
+    $selector:  ss-parse-template($template, $value);
+    $selectors: append($selectors, $selector, comma);
+  }
+  @return $selectors;
+}
+
+
+// Substitute the $replace part of a $string with a certain $value.
+//
+@function ss-sub(
+  $string,
+  $replace,
+  $value
+) {
+  $replace-len: str-length($replace);
+  $replace-start: str-index($string, $replace);
+  $string-len: str-length($string);
+  $string-left: str-slice($string, 1, $replace-start - 1);
+  $string-right: str-slice($string, $replace-start + $replace-len);
+  @return #{$string-left}#{$value}#{$string-right};
+}
+
+// Sugar method for ss-sub() function. Assumes a 'VALUE' for $replace.
+//
+@function ss-parse-template(
+  $template,
+  $value
+) {
+  @return ss-sub($template, 'VALUE', $value);
+};
+
+
+// Converts a px value to rem. Allows rem values to fall thru.
+//
+@function ss-rem(
+  $value
+) {
+  @return if(unit($value) == 'rem', $value, rem($value));
+}
+
