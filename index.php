@@ -10,6 +10,7 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <h1>Learning to swim is a necessity, not a luxury!</h1>
     <p class="home-blurb">Florida Swim School in Boca Raton, Florida offers swim lessons for all ages and abilities, beginning at 3 months.  Our goal is that the students keep swimming as their skills become stronger to ensure their safety and to develop a love for water.</p>
+    <p class="home-blurb"><em>Aqua-Kids Summer Camp</em> registration is now open! <a href="/camp.php">Click here</a> for details.</p>
     <?php include 'modules/link_gallery.php' ?>
 </section>
 

@@ -15,6 +15,7 @@ include 'modules/main/header.php';
       <p>Swim classes will continue with the same schedule through all spring breaks. If your child will not be attending, be sure to contact us in advance in order to secure a make-up class.</p>
     </section>
     <section class="ss-sidebar">
+      <?php include 'modules/camp.php' ?>
       <?php include 'modules/lifetime_membership.php' ?>
       <?php include 'modules/link_gallery.php' ?>
     </section>

@@ -139,7 +139,7 @@ header {
         color: #fff;
         cursor: pointer;
         text-decoration: none;
-        font-size: rem(22);
+        font-size: 1.36rem;
         font-weight: 700;
         line-height: rem(22);
         background-color: $nav-blue;
@@ -167,6 +167,8 @@ header {
           display: block;
           border-radius:0;
           background-color: $orange;
+          font-size: rem(22);
+          line-height: rem(22);
           &:not(.isTouchEnabled):hover, &:active { background-color: $hover-orange; }
           &:visited {
             background-color: $orange;
@@ -183,6 +185,7 @@ header {
       .header-nav-link {
         padding: rem(12) rem(20);
         margin-top: rem(12);
+        font-size: rem(22);
       }
       &.register-now {
         .header-nav-link {

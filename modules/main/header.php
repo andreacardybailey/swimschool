@@ -8,6 +8,7 @@
       <li><a href="/coaches.php">COACHES</a></li>
       <li><a href="/leaders.php">LEADERS</a></li>
       <li><a href="/gallery.php">GALLERY</a></li>
+      <li><a href="/camp.php">SUMMER CAMP</a></li>
       <li><a href="/news.php">LATEST NEWS</a></li>
       <li><a href="/faqs.php">FAQs</a></li>
       <li><a href="/what-to-expect.php">WHAT TO EXPECT</a></li>
@@ -36,9 +37,10 @@
             <div class="header-generalInfo-content">
               <em>Toll Free: &nbsp;</em>844-FLA-SWIM &nbsp;&nbsp;<em>Local: &nbsp;</em>561-288-3817
               <ul>
+                <li><a href="/news.php">NEWS<i class="icon-right-open"></i></a></li>
                 <li><a href="/faqs.php">FAQs<i class="icon-right-open"></i></a></li>
                 <li><a href="/what-to-expect.php">WHAT TO EXPECT<i class="icon-right-open"></i></a></li>
-                <li><a href="/contact.php">CONTACT US<i class="icon-right-open"></i></a></li>
+                <li><a href="/contact.php">CONTACT<i class="icon-right-open"></i></a></li>
               </ul>
             </div>
           </aside>
@@ -53,7 +55,8 @@
               <li><a href="/coaches.php" class="header-nav-link <?php if ($current == "coaches"): ?>current"<?php endif;?>">COACHES</a></li>
               <li><a href="/leaders.php" class="header-nav-link <?php if ($current == "leaders"): ?>current"<?php endif;?>">LEADERS</a></li>
               <li><a href="/gallery.php" class="header-nav-link <?php if ($current == "gallery"): ?>current"<?php endif;?>">GALLERY</a></li>
-              <li><a href="/news.php" class="header-nav-link <?php if ($current == "news"): ?>current"<?php endif;?>">LATEST NEWS</a></li>
+              <!-- <li><a href="/news.php" class="header-nav-link <?php if ($current == "news"): ?>current"<?php endif;?>">LATEST NEWS</a></li> -->
+              <li><a href="/camp.php" class="header-nav-link <?php if ($current == "camp"): ?>current"<?php endif;?>">SUMMER CAMP</a></li>
               <li class="register-now"><a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank" class="header-nav-link">REGISTER NOW</a></li>
             </ul>
         </div>
