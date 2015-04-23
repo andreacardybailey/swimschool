@@ -12,7 +12,8 @@ include 'modules/main/header.php';
       1082 S. Rogers Circle<br />
       Boca Raton, FL 33433</h2>
       <p>The forever fun and unique <em>Aqua-Kids Summer Camp</em> returns, this
-      time indoors! Download the summer camp registration form <a href="/assets/pdf/Camp_Reg_2015.pdf">here</a>.</p>
+      time indoors. <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">Register online now!</a>
+      </p>
       <h2>Typical Day: 9:00am-3:00pm</h2>
         9:00-9:15 Drop-Off/Sign-In<br>
         9:15-9:45 warm-up/stretching<br>
