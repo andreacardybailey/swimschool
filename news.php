@@ -8,13 +8,15 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">April Swimming News</h1>
-      <p>April 1st in the swimming world is known as April Pools Day – to encourage all to become safer in the water.  You are never too old to learn to swim!  April is also a reminder that summer is around the corner and closing in fast!  Schedule swimming now before classes fill up and the sooner you start, the sooner you can have fun at the pool parties!</p>
-      <p>Another reminder of summer is that the unique Aqua-Kids Summer Camp in Boca Raton is open for <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">registration online</a>. We will be indoors so weather will not get in the way of our fun! There is a 10% discount for siblings and additional weeks.</p>
-      <p>If you are hosting a pool party, please contact Florida Swim School in Boca Raton for a certified lifeguard.  </p>
-      <p>April showers sometimes get in the way of swim classes at our outdoor facility at Saint Andrew&rsquo;s School.  If the weather prohibits us from using the pool, we will call the families whose classes are affected.  However, we will not cancel in the morning for afternoon lessons, since the weather changes so quickly.  If you prefer not to wait on weather, cancellations must be made by 8am in order to schedule a make-up.</p>
-      <p>Thank you to those who have referred a friend. You will receive a $20 credit for each friend who registers!</p>
-      <p>See you at the pool!</p>
+      <h1 class="ss-mainhead">May Swimming News</h1>
+      <p>Happy Water Safety Month!  Florida Swim School in Boca Raton will continue to implement water safety skills in all classes for all ages!</p>
+      <p>Please check out the link so that you and your family is best prepared for water safety:  <a href="http://www.buzzfeed.com/mikespohr/water-safety-tips-every-parent-should-know" target="_blank">http://www.buzzfeed.com/mikespohr/water-safety-tips-every-parent-should-know</a>.</p>
+      <p>May is also a reminder that summer is close&hellip; Have you made plans for swimming ASAP (As Safely As Possible)? Florida Swim School has a flexible schedule for everyone&rsquo;s busy families, so feel free to contact us about registering, or you may register online for your convenience.</p>
+      <p><em><a href="/camp.php">Aqua-Kids Summer Camp</a></em> will continue to accept registrations as long as there are openings.</p>
+      <p>Florida Swim School is excited to see so many new babies joining them in the pool (minimum age 3 months).  We always enjoy seeing the enthusiasm of all the other groups too (from ages 2 and over) as they progress in their swimming skills. The teen fitness group, Stingrays, is also growing, as well as the adult fitness group, Adult Stingrays. </p>
+      <p>Florida Swim School is proud to include the entire family in the pool. <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">Registration online</a> is available for all groups. Be sure to <a href="/contact.php">contact us</a> if you do not see a day or time available that fits your schedule.</p>
+      <p><em>Learning to swim is a necessity, not a luxury.  We can never be too safe in the water!</em></p>
+      <p>Keep Swimming!</p>
     </section>
     <section class="ss-sidebar">
       <?php include 'modules/camp.php' ?>
