@@ -8,9 +8,9 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <section class="camp">
       <h1>Aqua-Kids Summer Camp</h1>
-      <h2 class="ss-subhead">Summer 2015, New Indoor Facility<br />
+      <h2 class="ss-subhead">New Indoor Facility<br />
       1082 S. Rogers Circle<br />
-      Boca Raton, FL 33433</h2>
+      Boca Raton, FL 33487</h2>
       <p>The forever fun and unique <em>Aqua-Kids Summer Camp</em> returns, this
       time indoors! <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">Register online now</a> or by email or mail using the attached <a href="/assets/pdf/Camp_Reg_2015.pdf">registration form</a>.
       </p>
