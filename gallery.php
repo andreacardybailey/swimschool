@@ -56,6 +56,15 @@ include 'modules/main/header.php';
           <li>
 	    	    <img src="/assets/images/gallery/17.jpg" srcset="/assets/images/gallery/small/17.jpg 641w, /assets/images/gallery/17.jpg 1252w", alt="Florida Swim School Gallery">
 	    		</li>
+          <li>
+	    	    <img src="/assets/images/gallery/18.jpg" srcset="/assets/images/gallery/small/18.jpg 641w, /assets/images/gallery/18.jpg 1252w", alt="Florida Swim School Gallery">
+	    		</li>
+          <li>
+	    	    <img src="/assets/images/gallery/19.jpg" srcset="/assets/images/gallery/small/19.jpg 641w, /assets/images/gallery/19.jpg 1252w", alt="Florida Swim School Gallery">
+	    		</li>
+          <li>
+	    	    <img src="/assets/images/gallery/20.jpg" srcset="/assets/images/gallery/small/20.jpg 641w, /assets/images/gallery/20.jpg 1252w", alt="Florida Swim School Gallery">
+	    		</li>
         </ul>
       </div>
       <div id="carousel" class="flexslider">
@@ -104,6 +113,15 @@ include 'modules/main/header.php';
 	    		</li>
           <li>
 	    	    <img src="/assets/images/gallery/small/17.jpg", alt="Florida Swim School Gallery">
+	    		</li>
+          <li>
+	    	    <img src="/assets/images/gallery/small/18.jpg", alt="Florida Swim School Gallery">
+	    		</li>
+          <li>
+	    	    <img src="/assets/images/gallery/small/19.jpg", alt="Florida Swim School Gallery">
+	    		</li>
+          <li>
+	    	    <img src="/assets/images/gallery/small/20.jpg", alt="Florida Swim School Gallery">
 	    		</li>
         </ul>
       </div>
