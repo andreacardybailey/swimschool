@@ -27,6 +27,11 @@
           </div>
         </div>
       </section>
+      <div class="header-alert-message">
+        <div class="ss-wrapper">
+          New indoor facility opening June 1st! Visit us at 1082 S. Rogers Circle, Boca Raton, FL 33487.
+      </div>
+      </div>
       <div class="header-preNav">
         <div class="ss-wrapper">
           <div class="header-logo-wrapper">

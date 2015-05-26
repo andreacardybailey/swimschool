@@ -753,6 +753,22 @@ header {
     .header-mobile-menu {
       display: none; } }
 
+.header-alert-message {
+  position: relative;
+  padding: 10px 5px;
+  z-index: 101;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background: #f7931e;
+  /* same as default alert background color */
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px -5px black;
+  -moz-box-shadow: 0 0 5px -5px black;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); }
+
 .header-logo-wrapper {
   padding: 1.4375rem 0;
   text-align: center; }
