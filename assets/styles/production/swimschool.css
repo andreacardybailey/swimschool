@@ -757,6 +757,8 @@ header {
   position: relative;
   padding: 10px 5px;
   z-index: 101;
+  font-size: 1.25rem;
+  line-height: 1.65rem;
   top: 0px;
   left: 0;
   right: 0;
@@ -1257,14 +1259,23 @@ blockquote p {
     list-style-type: disc;
     margin-bottom: 1.25rem; }
 
-.contact .contact-location ul {
+.contact .contact-location-1 ul {
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  margin-bottom: 36px; }
+@media (min-width: 1024px) {
+  .contact .contact-location-1 {
+    width: 47.45763%;
+    float: left;
+    margin-right: 1.69492%; } }
+.contact .contact-location-2 ul {
   font-size: 1.125rem;
   line-height: 1.6875rem; }
 @media (min-width: 1024px) {
-  .contact .contact-location {
-    width: 40.67797%;
-    float: left;
-    margin-right: 1.69492%; } }
+  .contact .contact-location-2 {
+    width: 47.45763%;
+    float: right;
+    margin-right: 0; } }
 .contact .contact-googleMap {
   position: relative;
   padding-bottom: 75%;
@@ -1288,11 +1299,6 @@ blockquote p {
   @media (min-width: 1024px) {
     .contact .contact-form h2 {
       display: block; } }
-@media (min-width: 1024px) {
-  .contact .contact-form {
-    width: 49.15254%;
-    float: right;
-    margin-right: 0; } }
 .contact form {
   margin-bottom: 2.5rem; }
   .contact form div {
