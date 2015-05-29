@@ -1,7 +1,7 @@
 <div class="sb-slidebar sb-left sb-momentum-scrolling">
   <nav>
     <ul>
-      <li class="register-now"><a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">REGISTER NOW<i class="icon-right-open"></i></a></li>
+      <li class="register-now"><a href="/register.php">REGISTER NOW<i class="icon-right-open"></i></a></li>
       <li><a href="/">HOME</a></li>
       <li><a href="/about.php">ABOUT US</a></li>
       <li><a href="/lessons.php">LESSONS</a></li>
@@ -62,7 +62,7 @@
               <li><a href="/gallery.php" class="header-nav-link <?php if ($current == "gallery"): ?>current"<?php endif;?>">GALLERY</a></li>
               <!-- <li><a href="/news.php" class="header-nav-link <?php if ($current == "news"): ?>current"<?php endif;?>">LATEST NEWS</a></li> -->
               <li><a href="/camp.php" class="header-nav-link <?php if ($current == "camp"): ?>current"<?php endif;?>">SUMMER CAMP</a></li>
-              <li class="register-now"><a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank" class="header-nav-link">REGISTER NOW</a></li>
+              <li class="register-now"><a href="/register.php" class="header-nav-link">REGISTER NOW</a></li>
             </ul>
         </div>
       </nav>
