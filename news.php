@@ -8,15 +8,13 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">May Swimming News</h1>
-      <p>Happy Water Safety Month!  Florida Swim School in Boca Raton will continue to implement water safety skills in all classes for all ages!</p>
-      <p>Please check out the link so that you and your family is best prepared for water safety:  <a href="http://www.buzzfeed.com/mikespohr/water-safety-tips-every-parent-should-know" target="_blank">http://www.buzzfeed.com/mikespohr/water-safety-tips-every-parent-should-know</a>.</p>
-      <p>May is also a reminder that summer is close&hellip; Have you made plans for swimming ASAP (As Safely As Possible)? Florida Swim School has a flexible schedule for everyone&rsquo;s busy families, so feel free to contact us about registering, or you may register online for your convenience.</p>
-      <p><em><a href="/camp.php">Aqua-Kids Summer Camp</a></em> will continue to accept registrations as long as there are openings.</p>
-      <p>Florida Swim School is excited to see so many new babies joining them in the pool (minimum age 3 months).  We always enjoy seeing the enthusiasm of all the other groups too (from ages 2 and over) as they progress in their swimming skills. The teen fitness group, Stingrays, is also growing, as well as the adult fitness group, Adult Stingrays. </p>
-      <p>Florida Swim School is proud to include the entire family in the pool. <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx" target="_blank">Registration online</a> is available for all groups. Be sure to <a href="/contact.php">contact us</a> if you do not see a day or time available that fits your schedule.</p>
-      <p><em>Learning to swim is a necessity, not a luxury.  We can never be too safe in the water!</em></p>
-      <p>Keep Swimming!</p>
+      <h1 class="ss-mainhead">June Swimming News</h1>
+      <p>Summer is in full swing at Florida Swim School! Our beautiful indoor facility is open and the pool is busy! Aqua-Kids Summer Camp includes lots of instruction in the pool, plus pool games, arts and crafts, and movie time. No sunscreen is needed! We will continue to host Aqua-Kids Summer Camp all summer, as demand requires it.</p>
+      <p>Weather will no longer interfere and cancel our swim classes! </p>
+      <p>Baby &amp; Me Classes are quite popular and we are proud to have adults also taking classes. It’s never too late to learn to swim! </p>
+      <p>As you know, summer is the time for pool parties! Have your pool party indoors at Florida Swim School! No need to schedule a &quot;Rain Date&quot; anymore! </p>
+      <p>As always, refer a friend and receive a $25 credit! </p>
+      <p>We look forward to seeing you at our new location&hellip; keep swimming!</p>
     </section>
     <section class="ss-sidebar">
       <?php include 'modules/camp.php' ?>
