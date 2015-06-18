@@ -762,9 +762,8 @@ header {
   top: 0px;
   left: 0;
   right: 0;
-  background: #f7931e;
+  background: #fffe96;
   /* same as default alert background color */
-  color: #fff;
   text-align: center;
   overflow: hidden;
   -webkit-box-shadow: 0 0 5px -5px black;
@@ -1105,6 +1104,27 @@ footer {
 .home-blurb {
   font-size: 1.5rem;
   line-height: 1.875rem; }
+
+.ss-camp-main {
+  padding-top: 20px; }
+
+@media (min-width: 1024px) {
+  .ss-camp-day {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media (min-width: 1024px) {
+  .ss-camp-details {
+    width: 36.44068%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media (min-width: 1024px) {
+  .ss-camp-dates {
+    width: 15.25424%;
+    float: right;
+    margin-right: 0; } }
 
 #carousel {
   display: none; }
