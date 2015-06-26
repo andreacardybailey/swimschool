@@ -688,7 +688,7 @@ ul {
   margin-top: 3rem; }
 
 @media (min-width: 1024px) {
-  .lessons, .news, .what-to-expect {
+  .about, .lessons, .news, .what-to-expect {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%; } }
@@ -1104,6 +1104,9 @@ footer {
 .home-blurb {
   font-size: 1.5rem;
   line-height: 1.875rem; }
+
+.main-about .lessons-lifetimeMembership {
+  border-bottom: none; }
 
 .ss-camp-main {
   padding-top: 20px; }

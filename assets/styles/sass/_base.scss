@@ -73,7 +73,7 @@ ul {
   margin-top: 3rem;
 }
 
-.lessons, .news, .what-to-expect {
+.about, .lessons, .news, .what-to-expect {
   @include ss-breakpoint(lg) {
     @include span(7);
   }

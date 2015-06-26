@@ -17,6 +17,7 @@ include 'modules/main/header.php';
       <p>We look forward to seeing you at our new location&hellip; keep swimming!</p>
     </section>
     <section class="ss-sidebar">
+      <?php include 'modules/openhouse.php' ?>
       <?php include 'modules/camp.php' ?>
       <?php include 'modules/lifetime_membership.php' ?>
       <?php include 'modules/link_gallery.php' ?>
