@@ -29,8 +29,8 @@
       </section>
       <div class="header-alert-message">
         <div class="ss-wrapper">
-          New indoor facility now open! Visit us at 1082 S. Rogers Circle, Boca Raton, FL 33487.
-      </div>
+          Join us at our new indoor location for an open house! On July 18th, from 11am - 2pm, the event will include pool games, free swim lessons, and more! Visit us at 1082 S. Rogers Circle, Boca Raton, FL 33487.
+        </div>
       </div>
       <div class="header-preNav">
         <div class="ss-wrapper">
