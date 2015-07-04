@@ -21,7 +21,7 @@ include 'modules/main/header.php';
 
 <p>We hope to see you there!</p>
 
-<p>Keep Swimming and Be Safe!</p>
+<p>Keep swimming and be safe!</p>
 
     </section>
     <section class="ss-sidebar">
