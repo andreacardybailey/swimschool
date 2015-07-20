@@ -57,7 +57,6 @@ include 'modules/main/header.php';
       </div>
     </section>
     <section class="ss-sidebar">
-      <?php include 'modules/openhouse.php' ?>
       <?php include 'modules/camp.php' ?>
       <?php include 'modules/lifetime_membership.php' ?>
       <?php include 'modules/link_gallery.php' ?>

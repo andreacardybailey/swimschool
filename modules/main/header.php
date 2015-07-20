@@ -29,7 +29,7 @@
       </section>
       <div class="header-alert-message">
         <div class="ss-wrapper">
-          Join us at our new indoor location for an open house! On July 18th, from 11am - 2pm, the event will include pool games, free swim lessons, and more! Visit us at 1082 S. Rogers Circle, Boca Raton, FL 33487.
+          Parents Night Out at Florida Swim School Friday, July 24 from 6-9pm. Kids enjoy a G-rated movie from the pool, then pizza. Children must be completely potty trained. $35 first child, $15 for siblings.
         </div>
       </div>
       <div class="header-preNav">

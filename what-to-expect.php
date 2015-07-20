@@ -22,7 +22,6 @@ include 'modules/main/header.php';
       </ul>
     </section>
     <section class="ss-sidebar">
-      <?php include 'modules/openhouse.php' ?>
       <?php include 'modules/camp.php' ?>
       <?php include 'modules/link_gallery.php' ?>
     </section>
