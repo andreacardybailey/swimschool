@@ -27,11 +27,6 @@
           </div>
         </div>
       </section>
-      <div class="header-alert-message">
-        <div class="ss-wrapper">
-          Parents Night Out at Florida Swim School Friday, July 24 from 6-9pm. Kids enjoy a G-rated movie from the pool, then pizza. Children must be completely potty trained. $35 first child, $15 for siblings.
-        </div>
-      </div>
       <div class="header-preNav">
         <div class="ss-wrapper">
           <div class="header-logo-wrapper">
