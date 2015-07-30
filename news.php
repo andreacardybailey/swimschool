@@ -8,20 +8,19 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">July Swimming News</h1>
-      <p>Swim Classes in Boca Raton for July are already beginning, which means summer is moving quickly! Hopefully you have scheduled swim classes so that you are prepared for all the pool parties!</p>
+      <h1 class="ss-mainhead">August Swimming News</h1>
+      <p>August is here already!</p>
 
-<p>Speaking of pool parties, be sure to schedule yours indoors with Florida Swim School in Boca Raton!</p>
+      <p>The staff at Florida Swim School hopes that your family has been enjoying a safe summer!  We have many new swimmers and want to remind all of you that it is important to keep practicing swimming after summer ends.</p>
 
-<p>Now that Florida Swim School’s indoor location is open, we have scheduled our Grand Opening for Saturday, July 18 and open house will be 11am-2pm. We will have pool games, free swim classes, and more!</p>
+      <p>All of the skills you and your children have learned should be practiced in regular swimming classes to be safer in the water!  History shows that when students stop swim classes for months at a time, their skills are forgotten&hellip;</p>
 
-<p>At the Grand Opening, anyone who registers that day, July 18, will receive 50% off of the registration fee. In addition, 100% of the registration fees collected on July 18 will be donated directly to a representative of the Red Cross, who will be present at the Grand Opening of Florida Swim School in Boca Raton!</p>
+      <p>August is our first give-away!  All swimming students who are enrolled in swim classes and Aqua-Kids Summer Camp in August will receive a Florida Swim School cinch bag!  We will post a picture of the bags on  <a href="https://www.facebook.com/swimclassesflorida" target="_blank">our Facebook page</a>.</p>
 
-<p>Bring your friends!</p>
+      <p>Aqua-Kids Summer Camp will continue through August 14.  If there is enough requests, we will also add the week of August 17, so please call Florida Swim School if you are interested!</p>
 
-<p>We hope to see you there!</p>
+      <p><strong>Learning to swim is a necessity, not a luxury!</strong></p>
 
-<p>Keep swimming and be safe!</p>
 
     </section>
     <section class="ss-sidebar">
