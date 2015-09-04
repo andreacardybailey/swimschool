@@ -13,12 +13,18 @@
     <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
     <?php if ($current == "gallery" || $current == "home" ): ?>
       <link href="/assets/styles/production/flexslider.css" media="all" rel="stylesheet" type="text/css" />
-      <style>
+    <?php endif;?>
+    <?php if ( $current == "home" ): ?>
+    <style>
         .flex-direction-nav a {
           color: #fff !important;
         }
         .flex-control-nav {
           bottom: -45px;
+        }
+        .flexslider { 
+          opacity: 1 !important;
+          border: none;
         }
       </style>
     <?php endif;?>
