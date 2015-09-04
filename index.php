@@ -7,13 +7,13 @@ include 'modules/main/header.php';
 <div id="slider" class="flexslider">
 	<ul class="slides">
 		<li>
+			<img src="/assets/images/rotator/3.jpg" srcset="/assets/images/rotator/small/3.jpg 810w, /assets/images/rotator/3.jpg 1964w", alt="Florida Swim School Gallery">
+		</li>
+		<li>
 			<img src="/assets/images/rotator/1.jpg" srcset="/assets/images/rotator/small/1.jpg 810w, /assets/images/rotator/1.jpg 1964w" alt="Florida Swim School Gallery">
 		</li>
 		<li>
 			<img src="/assets/images/rotator/2.jpg" srcset="/assets/images/rotator/small/2.jpg 810w, /assets/images/rotator/2.jpg 1964w", alt="Florida Swim School Gallery">
-		</li>
-		<li>
-			<img src="/assets/images/rotator/3.jpg" srcset="/assets/images/rotator/small/3.jpg 810w, /assets/images/rotator/3.jpg 1964w", alt="Florida Swim School Gallery">
 		</li>
 	</ul>
 </div>
