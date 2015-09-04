@@ -16,8 +16,8 @@
     <?php endif;?>
     <?php if ( $current == "home" ): ?>
     <style>
-        .flex-direction-nav a {
-          color: #fff !important;
+        .flex-direction-nav {
+          display:none;
         }
         .flex-control-nav {
           bottom: -45px;
