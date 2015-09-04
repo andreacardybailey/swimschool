@@ -708,6 +708,14 @@ ul {
   margin-bottom: 1.5rem;
   border-bottom: 1px dashed #999; }
 
+div#preloader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px; }
+
+div#preloader img {
+  display: block; }
+
 .sb-slidebar nav {
   padding: 0 2.5rem;
   font-weight: 700; }

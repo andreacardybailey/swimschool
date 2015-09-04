@@ -1,3 +1,13 @@
+// preloader
+div#preloader {
+  position: absolute;
+  left: -9999px;
+  top:  -9999px;
+}
+div#preloader img {
+  display: block;
+}
+
 // hamburger nav
 .sb-slidebar {
   nav {
