@@ -708,14 +708,6 @@ ul {
   margin-bottom: 1.5rem;
   border-bottom: 1px dashed #999; }
 
-div#preloader {
-  position: absolute;
-  left: -9999px;
-  top: -9999px; }
-
-div#preloader img {
-  display: block; }
-
 .sb-slidebar nav {
   padding: 0 2.5rem;
   font-weight: 700; }
@@ -862,7 +854,7 @@ header {
           color: #fff;
           cursor: pointer;
           text-decoration: none;
-          font-size: 1.36rem;
+          font-size: 1.375rem;
           font-weight: 700;
           line-height: 1.375rem;
           background-color: #33bef2;
@@ -886,9 +878,7 @@ header {
             padding: 1.5rem 1rem 0.75rem 1rem;
             display: block;
             border-radius: 0;
-            background-color: #f7931e;
-            font-size: 1.375rem;
-            line-height: 1.375rem; }
+            background-color: #f7931e; }
             .header-nav li.register-now .header-nav-link:not(.isTouchEnabled):hover, .header-nav li.register-now .header-nav-link:active {
               background-color: #e17900; }
             .header-nav li.register-now .header-nav-link:visited {
@@ -900,8 +890,7 @@ header {
       line-height: 1.5rem; }
       .header-nav li .header-nav-link {
         padding: 0.75rem 1.25rem;
-        margin-top: 0.75rem;
-        font-size: 1.375rem; }
+        margin-top: 0.75rem; }
       .header-nav li.register-now .header-nav-link {
         padding: 1.5rem 1.25rem 0.75rem 1.25rem; } }
 
