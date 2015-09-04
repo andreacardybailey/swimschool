@@ -10,6 +10,16 @@
         </div>
       </footer>
     </div>
+    <div id="preloader">
+      <img src="/assets/images/logo.png" width="1" height="1" />
+      <img src="/assets/images/gallery/1.jpg" width="1" height="1" />
+      <img src="/assets/images/gallery/2.jpg" width="1" height="1" />
+      <img src="/assets/images/gallery/3.jpg" width="1" height="1" />
+      <img src="/assets/images/gallery/4.jpg" width="1" height="1" />
+      <img src="/assets/images/gallery/5.jpg" width="1" height="1" />
+      <img src="/assets/images/gallery/6.jpg" width="1" height="1" />
+      <img src="/assets/images/gallery/7.jpg" width="1" height="1" />
+    </div>
     <?php include_once("inc/analyticstracking.php") ?>
     <!--[if (gt IE 8) | (IEMobile)]><!-->
       <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
