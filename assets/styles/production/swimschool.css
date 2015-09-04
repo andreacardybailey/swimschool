@@ -1108,6 +1108,9 @@ footer {
 .main-about .lessons-lifetimeMembership {
   border-bottom: none; }
 
+.main-about .lessons-camp.last {
+  border-bottom: none; }
+
 .ss-camp-main {
   padding-top: 20px; }
 
@@ -1273,6 +1276,9 @@ blockquote:after {
 
 blockquote p {
   display: inline; }
+
+.news-sidebar .lessons-camp.last {
+  border-bottom: none; }
 
 .what-to-expect-list {
   margin-top: 1.5rem;

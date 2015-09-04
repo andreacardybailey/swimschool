@@ -1,3 +1,8 @@
 .main-about .lessons-lifetimeMembership {
 	border-bottom: none;
 }
+.main-about .lessons-camp {
+  &.last {
+    border-bottom: none;
+  }
+}

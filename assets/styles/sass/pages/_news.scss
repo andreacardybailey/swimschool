@@ -25,3 +25,8 @@ blockquote:after {
 blockquote p {
   display: inline;
 }
+.news-sidebar .lessons-camp {
+  &.last {
+    border-bottom: none;
+  }
+}

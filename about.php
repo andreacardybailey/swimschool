@@ -18,7 +18,7 @@ include 'modules/main/header.php';
     </section>
     <section class="ss-sidebar">
       <?php include 'modules/camp.php' ?>
-      <?php include 'modules/lifetime_membership.php' ?>
+      <!--<?php include 'modules/lifetime_membership.php' ?>-->
     </section>
   </div>
 </section>
