@@ -23,7 +23,10 @@
     <!--[if (gt IE 8) | (IEMobile)]><!-->
       <script src="/assets/javascripts/preload.js" type="text/javascript" charset="utf-8"></script>
     <!--<![endif]-->
-
+      <?php if ($current == "home"): ?>
+        <script src="/assets/javascripts/vendor/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/assets/javascripts/rotator.js" type="text/javascript" charset="utf-8"></script>
+      <?php endif;?>
       <?php if ($current == "gallery"): ?>
         <script src="/assets/javascripts/vendor/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
         <script src="/assets/javascripts/gallery.js" type="text/javascript" charset="utf-8"></script>

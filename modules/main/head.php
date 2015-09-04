@@ -11,8 +11,16 @@
     <meta http-equiv="cleartype" content="on">
 
     <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
-    <?php if ($current == "gallery"): ?>
+    <?php if ($current == "gallery" || $current == "home" ): ?>
       <link href="/assets/styles/production/flexslider.css" media="all" rel="stylesheet" type="text/css" />
+      <style>
+        .flex-direction-nav a {
+          color: #fff !important;
+        }
+        .flex-control-nav {
+          bottom: -45px;
+        }
+      </style>
     <?php endif;?>
     <!--[if (gt IE 8) | (IEMobile)]><!-->
       <script type="text/javascript">
