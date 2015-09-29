@@ -28,8 +28,6 @@ include 'modules/main/header.php';
       <div class="lessons-description">
         <h2>Seahorses (4-5 years)</h2>
         <p>Swim lessons are 30 minutes with no more than 4 swimmers.  Students in this class will learn all proper swimming skills to provide for a safer child.  Swimmers learn self-propulsion and independent swimming.  Once rolling over is learned, side-breathing and backstroke is taught.  Butterfly and breaststroke drills are introduced.</p>
-        <p>Seahorse 1 students are beginner swimmers who are not comfortable with their faces in the water.</p>
-        <p>Seahorse 2 students are comfortable with their faces in the water and able to float on their backs and swim unassisted.</p>
       </div>
       <div class="lessons-description">
         <h2>Dolphins (5-9 years)</h2>
@@ -41,7 +39,7 @@ include 'modules/main/header.php';
       </div>
       <div class="lessons-description">
         <h2>Sharks (Pre-Team)</h2>
-        <p>Students in the Sharks classes are able to swim at least 20 yards of freestyle and backstroke.  Butterfly, breaststroke, and flip turns are taught, as well as competitive terms and rules.  Pre-Team is 30 minutes in length with no more than 4 students for each teacher.  The focus of this group is endurance, competitive swimming strokes and rules.</p>
+        <p>Students in the Sharks classes are able to swim at least 25 yards of freestyle and backstroke.  Butterfly, breaststroke, and flip turns are taught, as well as competitive terms and rules.  Pre-Team is 30 minutes in length with no more than 4 students for each teacher.  The focus of this group is endurance, competitive swimming strokes and rules. "Sharks" swim at Saint Andrew's School location.</p>
       </div>
       <div class="lessons-description">
         <h2>Stingrays and Adult Stingrays</h2>

@@ -29,6 +29,9 @@ include 'modules/main/header.php';
 			 		<li>
 				    <img src="/assets/images/gallery/7.jpg" srcset="/assets/images/gallery/small/7.jpg 641w, /assets/images/gallery/7.jpg 1252w", alt="Florida Swim School Gallery">
 					</li>
+					<li>
+				    <img src="/assets/images/gallery/9.jpg" srcset="/assets/images/gallery/small/9.jpg 641w, /assets/images/gallery/9.jpg 1252w", alt="Florida Swim School Gallery">
+					</li>
         </ul>
       </div>
       <div id="carousel" class="flexslider">
@@ -48,8 +51,11 @@ include 'modules/main/header.php';
           <li>
 	    	    <img src="/assets/images/gallery/small/6.jpg", alt="Florida Swim School Gallery">
 	    		</li>
-          <li>
+          		<li>
 	    	    <img src="/assets/images/gallery/small/7.jpg", alt="Florida Swim School Gallery">
+	    		</li>
+	    		<li>
+	    	    <img src="/assets/images/gallery/small/9.jpg", alt="Florida Swim School Gallery">
 	    		</li>
         </ul>
       </div>
