@@ -10,11 +10,11 @@ include 'modules/main/header.php';
       <h1>Swim Lessons &ndash; Class Descriptions</h1>
       <h2 class="ss-subhead">Florida Swim School pools are located in Boca Raton, Florida.</h2>
       <div class="lessons-description">
-        <h2>Tadpoles (3-5 months)</h2>
-        <p>Infants and adults will be in the pool together as baby becomes comfortable in the water.</p>
+        <h2>Tadpoles (4-18 months)</h2>
+        <p>Baby &amp; Me group classes for 30 minutes include an adult in the water with the  baby.  Proper handling of baby in the water will be taught, along with promoting comfort in water for baby and adult!  Safety skills will be introduced and practiced in each class.  Private instruction is also available for 15 minutes.</p>
       </div>
       <div class="lessons-description">
-        <h2>Minnows (6-24 months)</h2>
+        <h2>Minnows (18-36 months)</h2>
         <p>Baby &amp; Me group classes for 30 minutes include an adult in the water with the  baby.  Proper handling of baby in the water will be taught, along with promoting comfort in water for baby and adult!  Safety skills will be introduced and practiced in each class.  Private instruction is also available for 15 minutes.</p>
       </div>
       <div class="lessons-description">
