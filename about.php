@@ -17,8 +17,7 @@ include 'modules/main/header.php';
       <p>Learning to swim is a necessity, not a luxury!</p>
     </section>
     <section class="ss-sidebar">
-      <?php include 'modules/camp.php' ?>
-      <!--<?php include 'modules/lifetime_membership.php' ?>-->
+      <?php include 'modules/lifetime_membership.php' ?>
     </section>
   </div>
 </section>
