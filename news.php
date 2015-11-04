@@ -8,32 +8,13 @@ include 'modules/main/header.php';
 <section class="main">
   <div class="ss-wrapper">
     <section class="news">
-      <h1 class="ss-mainhead">October Swimming News</h1>
-<p>THANK YOU! Customer Appreciation Day is Saturday, October 24
-from 12noon-1pm. Free swim for all! Please RSVP 561-288-3817. Parents
-must be in the pool with your children. The only flotation devices that will
-be allowed are Coast Guard Certified life jackets. There will be some
-available at Florida Swim School.</p>
-<p>TRICK OR TREAT! Florida Swim School will have a Halloween party
-for Parents Night Out on Friday, October 30. Children should wear a
-costume! Drop your children off at 6:00pm for a fun night at the pool,
-while you enjoy a night out yourselves! Pick up at 9:00pm. Price is $35 per
-child, $10 for siblings. Children must be completely potty trained.
-All students should have received a Florida Swim School drawstring bag. If
-you have not received one, please check in at the front desk to receive
-yours!</p>
-<p>We are excited to offer one FREE BABY & ME introductory class! An
-adult must be in the water with Baby. This class will be available Tuesdays
-9-9:45am ages 4 months - 36 months beginning October 13. Parents will
-learn about the process of teaching babies and what to expect in Baby & Me
-classes. Please call to reserve your spot 561-288-3817</p>
-<p>Cate and I attended the United States Swim School Association
-national conference last week. It was an honor for me to be a presenter
-and share Florida Swim School philosophies. In addition, we learned new
-ideas and look forward to implementing them! Thank you for your patience
-and understanding with our limited staff while we were gone.</p>
-<p>See you at the pool,</p> 
-<p>Kara</p>
+      <h1 class="ss-mainhead">November Swimming News</h1>
+<p>We are very thankful that our swimming families understand the importance of learning to swim and improving swimming skills for their children and themselves! </p>
+<p>Now is the time of year that we may become overwhelmed with the busy holiday season. Keeping a regular swimming schedule will help alleviate some of that holiday stress by staying on task. It has been proven that children who are enrolled in regular swimming class and all who swim regularly are more focused and healthier. Swimming is a skill that can be used for life and swimming is a skill that can save lives. When your children learn to swim at Florida Swim School in Boca Raton, they will also learn important safety skills, including what their limits/boundaries are in the water as we teach independent swimming. </p>
+<p>To help keep swimming in your schedules, Florida Swim School in Boca Raton is adding Family Swim Time Tuesdays and Thursdays 12-1pm. During those times, parents and children are invited to use the pool at their leisure to practice or just enjoy the warm pool. There will be no fee in November or December for Family Swim Time for anyone who has a family member currently enrolled in swim classes. Please take advantage of this fantastic opportunity! Anyone who is not yet a member may also join Family Swim Time for $10 per family.</p>
+<p><strong><u>Florida Swim School will be hosting Red Cross Hands-On CPR, free of charge for all ages. Please join us at 1082 S. Rogers Circle, Boca Raton 33487 on Saturday, November 21 from 12-2pm. The pool will also be open at this time for free swim!</u></strong></p>
+<p>Please call to reserve your space 561-288-3817.</p>
+<p>As you know the cancellation policy is 2 weeks' notice. To avoid confusion, we are implementing a new policy that will require written notice at least 2 weeks prior to the next billing cycle. Cancellation forms must be made in person at Florida Swim School.</p>
 
     </section>
     <section class="ss-sidebar">

@@ -70,6 +70,18 @@ include 'modules/main/header.php';
             <h3>Whittaker Ann</h3>
           </div>
         </div>
+        <div class="ss-gallery-item">
+          <img src="/assets/images/coaches/christina.jpg" alt="Christina">
+          <div class="ss-gallery-item-description">
+            <h3>Christina</h3>
+          </div>
+        </div>
+        <div class="ss-gallery-item">
+          <img src="/assets/images/coaches/bree.jpg" alt="Bree">
+          <div class="ss-gallery-item-description">
+            <h3>Bree</h3>
+          </div>
+        </div>
       </div>
       </section>
     </section>
