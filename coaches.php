@@ -11,12 +11,6 @@ include 'modules/main/header.php';
       <p>Florida Swim School teaches the life-saving skill of swimming in a safe environment using a nurturing method that builds self-confidence.  All coaches are lifeguard certified and trained with a method created by years of research and experience. We believe swimming is a necessity not a luxury.  Our coaches have a passion for swimming and knowledge to match!</p>
       <section class="ss-gallery coaches-gallery">
         <div class="ss-gallery-item">
-          <img src="/assets/images/coaches/amanda.jpg" alt="Amanda">
-          <div class="ss-gallery-item-description">
-            <h3>Amanda</h3>
-          </div>
-        </div>
-        <div class="ss-gallery-item">
           <img src="/assets/images/coaches/luke.jpg" alt="Luke">
           <div class="ss-gallery-item-description">
             <h3>Luke</h3>
@@ -56,12 +50,6 @@ include 'modules/main/header.php';
           <img src="/assets/images/coaches/quinn.jpg" alt="Quinn">
           <div class="ss-gallery-item-description">
             <h3>Quinn</h3>
-          </div>
-        </div>
-        <div class="ss-gallery-item">
-          <img src="/assets/images/coaches/shelby.jpg" alt="Shelby">
-          <div class="ss-gallery-item-description">
-            <h3>Shelby</h3>
           </div>
         </div>
         <div class="ss-gallery-item">

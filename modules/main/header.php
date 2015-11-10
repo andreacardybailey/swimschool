@@ -28,7 +28,7 @@
       </section>
       <div class="header-alert-message">
         <div class="ss-wrapper">
-          Florida Swim School has a new INDOOR location! Visit us at 1082 S. Rogers Circle, Boca Raton FL 33487.
+         Join us &amp; the Red Cross for FREE hands-only CPR Saturday Nov. 21 from 12-2pm. Call 561-288-3817 to reserve your space! 
         </div>
           
       </div>

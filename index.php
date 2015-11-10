@@ -23,7 +23,8 @@ include 'modules/main/header.php';
   <div class="ss-wrapper">
     <h1>Learning to swim is a necessity, not a luxury!</h1>
     <p class="home-blurb">Florida Swim School in Boca Raton, Florida offers swim lessons for all ages and abilities, beginning at 3 months.  Our goal is that the students keep swimming as their skills become stronger to ensure their safety and to develop a love for water.</p>
-    <p class="home-blurb"><em>School’s Out Aqua-Kids Day Camp</em> registration is now open. New camp dates have been added for September 14, 23, 28, and 29! The day camp is $75 and will take place from 9am - 3pm at our new indoor location. <a href="https://floridaswimschoolregistration.com:8102/Loginuser.aspx?lo=1" target="_blank">Click here</a> to register!</p>
+    <p class="home-blurb">Join us along with the Red Cross for FREE <a href="http://www.redcross.org/prepare/hands-only-cpr">hands-only CPR</a> Saturday November 21 from 12-2pm. Call to reserve your space! All ages! 561-288-3817. 
+</p>
 	
 
     <?php include 'modules/link_gallery.php' ?>
