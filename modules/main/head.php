@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="cleartype" content="on">
-
+    <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
     <link href="/assets/styles/production/swimschool.css" media="all" rel="stylesheet" type="text/css" />
     <?php if ($current == "gallery" || $current == "home" ): ?>
       <link href="/assets/styles/production/flexslider.css" media="all" rel="stylesheet" type="text/css" />
