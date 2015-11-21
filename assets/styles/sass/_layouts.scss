@@ -109,4 +109,8 @@ $ss-wrapper-padding: rem(20px);
   //      @include breakpoint($query) { width: $width; }
   //    }
   //  }
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
