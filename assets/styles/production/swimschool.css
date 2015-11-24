@@ -444,9 +444,6 @@ th {
   @media (min-width: 1300px) {
     .ss-wrapper {
       width: 78.75rem; } }
-  .ss-wrapper a {
-    color: #fff;
-    text-decoration: underline; }
 
 /* -----------------------------------
  * Slidebars
