@@ -35,12 +35,6 @@ include 'modules/main/header.php';
           </div>
         </div>
         <div class="ss-gallery-item">
-          <img src="/assets/images/coaches/mckenna.jpg" alt="McKenna">
-          <div class="ss-gallery-item-description">
-            <h3>McKenna</h3>
-          </div>
-        </div>
-        <div class="ss-gallery-item">
           <img src="/assets/images/coaches/niccole.jpg" alt="Niccole">
           <div class="ss-gallery-item-description">
             <h3>Niccole</h3>
@@ -53,12 +47,6 @@ include 'modules/main/header.php';
           </div>
         </div>
         <div class="ss-gallery-item">
-          <img src="/assets/images/coaches/whittaker_ann.jpg" alt="Whittaker Ann">
-          <div class="ss-gallery-item-description">
-            <h3>Whittaker Ann</h3>
-          </div>
-        </div>
-        <div class="ss-gallery-item">
           <img src="/assets/images/coaches/christina.jpg" alt="Christina">
           <div class="ss-gallery-item-description">
             <h3>Christina</h3>
@@ -68,6 +56,18 @@ include 'modules/main/header.php';
           <img src="/assets/images/coaches/bree.jpg" alt="Bree">
           <div class="ss-gallery-item-description">
             <h3>Bree</h3>
+          </div>
+        </div>
+        <div class="ss-gallery-item">
+          <img src="/assets/images/coaches/mackenzie.jpg" alt="Mackenzie">
+          <div class="ss-gallery-item-description">
+            <h3>Mackenzie</h3>
+          </div>
+        </div>
+        <div class="ss-gallery-item">
+          <img src="/assets/images/coaches/john.jpg" alt="John">
+          <div class="ss-gallery-item-description">
+            <h3>John</h3>
           </div>
         </div>
       </div>
