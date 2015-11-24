@@ -26,12 +26,12 @@
           </div>
         </div>
       </section>
-      <div class="header-alert-message">
+      <!-- <div class="header-alert-message">
         <div class="ss-wrapper">
          Join us &amp; the Red Cross for FREE hands-only CPR Saturday Nov. 21 from 12-1pm. Call 561-288-3817 to reserve your space! 
         </div>
           
-      </div>
+      </div> -->
       <div class="header-preNav">
         <div class="ss-wrapper">
           <div class="header-logo-wrapper">
