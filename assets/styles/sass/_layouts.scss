@@ -100,13 +100,4 @@ $ss-wrapper-padding: rem(20px);
   @include ss-breakpoint(md) { width: rem(660);}
   @include ss-breakpoint(lg) { width: rem(984);}
   @include ss-breakpoint(xl) { width: rem(1260);}
-  // this is not working. why???
-
-  //  @each $name, $info in $ss-layouts {
-  //    @if $name != ss-first(map-keys($ss-layouts)) {
-  //      $query: map-get-deep($ss-layouts, $name, breakpoint);
-  //      $width: ss-rem($query) - $ss-wrapper-padding;
-  //      @include breakpoint($query) { width: $width; }
-  //    }
-  //  }
 }
