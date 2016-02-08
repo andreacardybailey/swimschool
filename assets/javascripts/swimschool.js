@@ -1,19 +1,7 @@
-
 (function($) {
 
   // init slidebar plugin- used for pop-over mobile menu
 	$.slidebars();
-
-  // init slide down messaging
-  // $( ".header-alert-message" ).animate({
-  //     top:0
-  //   }, 400, function() {
-  //     setTimeout(function() {
-  //       $( ".header-alert-message" ).animate({
-  //           top:-100
-  //         }, 400)
-  //     }, 1600);
-  //   });
 
   // touch device support
   var isTouchEnabled = ("ontouchstart" in window) || window.DocumentTouch && document instanceof DocumentTouch;
