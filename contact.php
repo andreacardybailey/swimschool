@@ -24,24 +24,24 @@ include 'modules/main/header.php';
             $MESSAGE_BODY .= "<strong>Message:</strong> ".nl2br($_POST["message"])."<br>";
             mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
 
-          	$sql = "INSERT INTO `contacts` (
-          	`first_name`,
-          	`last_name`,
-          	`email`,
-          	`subject`,
-          	`message`,
-          	`timestamp`
-          	 )
+            $sql = "INSERT INTO `contacts` (
+            `first_name`,
+            `last_name`,
+            `email`,
+            `subject`,
+            `message`,
+            `timestamp`
+             )
 
-          	VALUES (
-          	'".addslashes($_POST['fname'])."',
-          	'".addslashes($_POST['lname'])."',
-          	'".addslashes($_POST['email'])."',
-          	'".addslashes($_POST['subject'])."',
+            VALUES (
+            '".addslashes($_POST['fname'])."',
+            '".addslashes($_POST['lname'])."',
+            '".addslashes($_POST['email'])."',
+            '".addslashes($_POST['subject'])."',
             '".addslashes($_POST['message'])."',
-          	NOW()
+            NOW()
 
-          	);";
+            );";
 
             mysql_query($sql) or die(mysql_error());
         ?>

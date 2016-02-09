@@ -1,7 +1,7 @@
 (function($) {
 
   // init slidebar plugin- used for pop-over mobile menu
-	$.slidebars();
+  $.slidebars();
 
   // touch device support
   var isTouchEnabled = ("ontouchstart" in window) || window.DocumentTouch && document instanceof DocumentTouch;
