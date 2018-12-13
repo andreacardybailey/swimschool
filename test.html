@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+	<title>Welcome to Karma</title>
+
+  <style type="text/css" media="screen">
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+
+
+  /* HIGHLIGHTS TO MAKE LAYOUT VISIBLE:
+  1) Add light gray background on whole page
+  2) Add chocolate border around every div element
+  */
+
+  body {
+      background-color: LightGray;
+  }
+  div {
+      border: 1px solid Chocolate;
+  }
+
+
+  /* GENERAL STYLING
+  */
+
+  body {
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 16px;
+  	color: #838994;
+  	letter-spacing: 0.03em;
+  	-webkit-font-smoothing: antialiased
+  }
+
+  .content{
+  	padding: 0 15px;
+  	margin 0 auto;
+  	width:970px;
+  	height: 70px;
+  }
+
+  a {
+  	text-decoration: none;
+  }
+
+
+  /* NAVIGATION BAR STYLING
+  */
+
+  .topnavigation{
+  	background-color: #fff;
+  }
+
+  .topnavigation img{
+  	height: 70px;
+  }
+
+  .topnavlinks li {
+  	float: right;
+  	display: inline-block;
+  }
+
+  .topnavlinks ul{
+  	/*margin: 1em 0.5em;*/
+  	margin-top: 10px;
+  }
+
+  .topnavlinks a {
+  	color: gray;
+  }
+
+  .topnavlinks a:hover {
+
+  	color: #000;
+  }
+
+  .topnavlinks .active {
+  	color: #4c5058;
+  	font-weight: 600;
+  }
+  </style>
+</head>
+<body>
+	<nav class="topnavigation">
+		<div class="content">
+			<ul class="topnavlinks">
+				<li class="active"><a>Meet Karma</a></li>
+				<li><a>How it Works</a></li>
+				<li><a>Store</a></li>
+				<li><a>Blog</a></li>
+				<li><a>Help</a></li>
+				<li><a>Login</a></li>
+			</ul>
+			<img src="http://thinkful-ed.github.io/karma-clone/img/karma-logo.svg" alt="logo image" width="26rem">
+		</div>
+	</nav>
+</body>
+</html>
