@@ -1,0 +1,103 @@
+// ----------------
+// Susy Integration
+// ----------------
+
+
+$susy: (
+  global-box-sizing: border-box,
+);
+
+$ss-layouts: (
+  sm: (susy: (columns: 4)),
+  md: (susy: (columns: 12), breakpoint: 700px),
+  lg: (susy: (columns: 12), breakpoint: 1024px),
+  xl: (susy: (columns: 12), breakpoint: 1300px),
+) !global;
+
+// Push first (mobile) columns in `$ss-layouts` back to the `$susy` global context.
+$susy: map-set($susy, columns, map-get-deep($ss-layouts, ss-first(map-keys($ss-layouts)), susy, columns));
+
+// The wrapper padding is an approximate outter gutter for the grid.
+$ss-wrapper-padding: rem(20px);
+
+// Get the $susy layout by name from $ss-layouts mixed in.
+@function ss-layout($name) {
+  $settings: map-get-deep($ss-layouts, $name, susy);
+  @return map-merge($susy, $settings);
+}
+
+// Wrap Susy's `with-layout` by leveraging a StyleBitz layout name.
+@mixin with-ss-layout($name) {
+  $layout: ss-layout($name);
+  @include with-layout($layout, $clean: true) { @content; }
+}
+
+
+// ----------------------
+// Breakpoint Integration
+// ----------------------
+
+// Add a `respond-to` property to `$ss-layouts` which contains min/max width for breakpoints.
+@each $name, $info in $ss-layouts {
+  $names: map-keys($ss-layouts);
+  $index: index($names, $name);
+  // Current and next breakpoint info.
+  $current-breakpoint: map-get($info, breakpoint);
+  $next-name: null;
+  $next-breakpoint: null;
+  @if $index < length($names) {
+    $next-name: nth($names, $index + 1);
+    $next-breakpoint: map-get-deep($ss-layouts, $next-name, breakpoint);
+  }
+  // Construct respond-to breakpoint for each layout. The first and
+  // last media queries are different than each middle layout.
+  $respond-to: null;
+  $min-width: null;
+  $max-width: null;
+  @if $index == 1 {
+    $max-width: $next-breakpoint - 1px;
+    $respond-to: 'max-width' $max-width;
+  } @else if $index != length($names) {
+    $min-width: $current-breakpoint;
+    $max-width: $next-breakpoint - 1px;
+    $respond-to: (width $min-width $max-width);
+  } @else {
+    $min-width: $current-breakpoint;
+    $respond-to: $min-width;
+  }
+  // Add respond-to to the ss-layouts map.
+  $ss-layouts: map-set-deep($ss-layouts, ($name, respond-to), $respond-to) !global;
+}
+
+// Use our layout names with `susy-breakpoint`.
+@mixin ss-breakpoint($name, $max: null) {
+  $query: map-get-deep($ss-layouts, $name, breakpoint);
+  @if $max != null {
+    $max: $query + $max;
+    $query: width $query $max;
+  }
+  $layout: ss-layout($name);
+  @include susy-breakpoint($query, $layout) {
+    @content;
+  }
+}
+
+// Respond to a specific layout only. Uses `respond-to` tuple set in `sb-layouts` above.
+@mixin ss-respond-to($name) {
+  $query: map-get-deep($sb-layouts, $name, respond-to);
+  $layout: ss-layout($name);
+  @include susy-breakpoint($query, $layout) {
+    @content;
+  }
+}
+
+.ss-wrapper {
+  @include clearfix;
+  padding-right: $ss-wrapper-padding;
+  padding-left: $ss-wrapper-padding;
+  margin-right: auto;
+  margin-left: auto;
+  @include ss-breakpoint(md) { width: rem(660);}
+  @include ss-breakpoint(lg) { width: rem(984);}
+  @include ss-breakpoint(xl) { width: rem(1260);}
+}

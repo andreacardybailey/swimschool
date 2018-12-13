@@ -1,0 +1,18 @@
+.ss-camp-main {
+  padding-top: 20px;
+}
+.ss-camp-day {
+  @include ss-breakpoint(lg) {
+    @include span(5);
+  }
+}
+.ss-camp-details {
+  @include ss-breakpoint(lg) {
+    @include span(4.5);
+  }
+}
+.ss-camp-dates {
+  @include ss-breakpoint(lg) {
+    @include span(last 2);
+  }
+}

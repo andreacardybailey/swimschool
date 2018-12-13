@@ -29,13 +29,6 @@ module.exports = function(grunt) {
         require: 'susy'
       },
       dist: {
-        // files: [{
-        //   expand: true,
-        //   cwd: 'assets/styles/sass',
-        //   src: ['*.scss'],
-        //   dest: 'assets/styles/production',
-        //   ext: '.css'
-        // }]
         files: {
           'assets/styles/production/swimschool.css': 'assets/styles/sass/swimschool.scss',
           'assets/styles/production/swimschool-ie.css': 'assets/styles/sass/swimschool-ie.scss'
@@ -47,10 +40,10 @@ module.exports = function(grunt) {
         files: '<%= jshint.gruntfile.src %>',
         tasks: ['jshint:gruntfile']
       },
-			css: {
-				files: '**/*.scss',
-				tasks: ['sass']
-			}
+      css: {
+        files: '**/*.scss',
+        tasks: ['sass']
+      }
     }
   });
 

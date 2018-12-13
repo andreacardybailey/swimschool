@@ -1,11 +1,22 @@
 .contact {
-  .contact-location {
+  .contact-location-1 {
+    ul {
+      font-size: 1.125rem;
+      line-height: rem(27);
+      margin-bottom: 36px;
+    }
+    @include ss-breakpoint(lg) {
+      @include span(5.8);
+  //    width: 43.678%;
+    }
+  }
+  .contact-location-2 {
     ul {
       font-size: 1.125rem;
       line-height: rem(27);
     }
     @include ss-breakpoint(lg) {
-      @include span(5);
+      @include span(last 5.8);
   //    width: 43.678%;
     }
   }
@@ -35,9 +46,6 @@
       @include ss-breakpoint(lg) {
         display: block;
       }
-    }
-    @include ss-breakpoint(lg) {
-      @include span(last 6);
     }
   }
 

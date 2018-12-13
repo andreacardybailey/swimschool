@@ -24,7 +24,5 @@ tmp
 mkmf.log
 bower_components/jquery/src
 bower_components/sassy-maps/examples
-assets/styles/helpers/*
-assets/styles/sass/_layouts.scss
 config.codekit
 *.log

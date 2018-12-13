@@ -73,7 +73,7 @@ ul {
   margin-top: 3rem;
 }
 
-.lessons, .news, .what-to-expect {
+.about, .lessons, .news, .what-to-expect {
   @include ss-breakpoint(lg) {
     @include span(7);
   }
@@ -91,4 +91,8 @@ ul {
       }
     }
   }
+}
+.lessons-camp {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px dashed $text-lt-gray;
 }

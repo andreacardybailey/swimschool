@@ -23,9 +23,16 @@
   <div class="ss-gallery-item">
     <a href="https://www.facebook.com/swimclassesflorida" target="_blank"><img src="/assets/images/homepage_gallery/fb.png" alt="Facebook"></a>
     <div class="ss-gallery-item-description">
-      <h3>LIKE US, GET 10% OFF</h3>
+      <h3>LIKE US!</h3>
       <h4><a href="https://www.facebook.com/swimclassesflorida" target="_blank">Learn More<i class="icon-angle-double-right"></i></a></h4>
     </div>
   </div>
-</div>
+  <div class="ss-gallery-item">
+    <a href="https://www.youtube.com/channel/UCTfkD-s0wR1-BI0OAM6Gt5g" target="_blank"><img src="/assets/images/homepage_gallery/yt-icon.png" alt="YouTube"></a>
+    <div class="ss-gallery-item-description">
+      <h3>WATCH US ON YOUTUBE</h3>
+      <h4><a href="https://www.youtube.com/channel/UCTfkD-s0wR1-BI0OAM6Gt5g" target="_blank">Learn More<i class="icon-angle-double-right"></i></a></h4>
+    </div>
+  </div>
 </section>
+

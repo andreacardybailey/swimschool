@@ -54,6 +54,25 @@ header {
   }
   @include ss-breakpoint(lg) { display: none;}
 }
+// alert messaging
+
+.header-alert-message {
+  position: relative;
+  padding: 10px 5px;
+  z-index: 101;
+  font-size: 1.25rem;
+  line-height: 1.65rem;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background: #f7931e; /* same as default alert background color */
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px -5px black;
+  -moz-box-shadow: 0 0 5px -5px black;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
 .header-logo-wrapper {
   padding: rem(23px) 0;
   text-align: center;

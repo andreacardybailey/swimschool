@@ -24,12 +24,12 @@
 }
 .home-learnToSwim {
   background-color: #fff;
-  padding-top: 2rem;
+  /*padding-top: 2rem;*/
   @include ss-breakpoint(lg) {
-    position: relative;
+    /*position: relative;
     padding-top: rem(6) + 2rem;
     top: rem(-75);
-    margin-bottom: rem(-75);
+    margin-bottom: rem(-75);*/
     z-index: 1;
   }
   @include ss-breakpoint(xl) {
@@ -37,11 +37,11 @@
     margin-bottom: rem(-100);
     z-index: 1;
   }
-  h1 { text-align: center;}
+//  h1 { text-align: center;}
 }
 
 .home-blurb {
-  text-align: center;
+//  text-align: center;
   font-size: rem(24px);
   line-height: rem(30px);
 }
